@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8497F1C92123DD9600C7AC7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497F1C82123DD9600C7AC7F /* AppDelegate.swift */; };
+		8497F1CB2123DD9600C7AC7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497F1CA2123DD9600C7AC7F /* ViewController.swift */; };
+		8497F1CE2123DD9600C7AC7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8497F1CC2123DD9600C7AC7F /* Main.storyboard */; };
+		8497F1D02123DD9F00C7AC7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8497F1CF2123DD9F00C7AC7F /* Assets.xcassets */; };
+		8497F1D32123DD9F00C7AC7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8497F1D12123DD9F00C7AC7F /* LaunchScreen.storyboard */; };
+		8497F1DE2123DDA000C7AC7F /* MiluTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497F1DD2123DDA000C7AC7F /* MiluTests.swift */; };
+		8497F1E92123DDA000C7AC7F /* MiluUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497F1E82123DDA000C7AC7F /* MiluUITests.swift */; };
+		9EE7C9D428224A4B315AF72E /* Pods_Milu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDA7E45B9BF4800CD271386 /* Pods_Milu.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8497F1DA2123DDA000C7AC7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8497F1BD2123DD9600C7AC7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8497F1C42123DD9600C7AC7F;
+			remoteInfo = Milu;
+		};
+		8497F1E52123DDA000C7AC7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8497F1BD2123DD9600C7AC7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8497F1C42123DD9600C7AC7F;
+			remoteInfo = Milu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8497F1C52123DD9600C7AC7F /* Milu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Milu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8497F1C82123DD9600C7AC7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8497F1CA2123DD9600C7AC7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8497F1CD2123DD9600C7AC7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8497F1CF2123DD9F00C7AC7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8497F1D22123DD9F00C7AC7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8497F1D42123DD9F00C7AC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8497F1D92123DDA000C7AC7F /* MiluTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiluTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8497F1DD2123DDA000C7AC7F /* MiluTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiluTests.swift; sourceTree = "<group>"; };
+		8497F1DF2123DDA000C7AC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8497F1E42123DDA000C7AC7F /* MiluUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiluUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8497F1E82123DDA000C7AC7F /* MiluUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiluUITests.swift; sourceTree = "<group>"; };
+		8497F1EA2123DDA000C7AC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BDA7E45B9BF4800CD271386 /* Pods_Milu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Milu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E59AF38BAAA338CA2BE0DA /* Pods-Milu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Milu/Pods-Milu.release.xcconfig"; sourceTree = "<group>"; };
+		B5F64C43BEC82119A775A76D /* Pods-Milu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Milu/Pods-Milu.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8497F1C22123DD9600C7AC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE7C9D428224A4B315AF72E /* Pods_Milu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8497F1D62123DDA000C7AC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8497F1E12123DDA000C7AC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A60FC46CB27FD5C4F79CC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5F64C43BEC82119A775A76D /* Pods-Milu.debug.xcconfig */,
+				A9E59AF38BAAA338CA2BE0DA /* Pods-Milu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2E6D512DDDA692D111D92FC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BDA7E45B9BF4800CD271386 /* Pods_Milu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8497F1BC2123DD9600C7AC7F = {
+			isa = PBXGroup;
+			children = (
+				8497F1C72123DD9600C7AC7F /* Milu */,
+				8497F1DC2123DDA000C7AC7F /* MiluTests */,
+				8497F1E72123DDA000C7AC7F /* MiluUITests */,
+				8497F1C62123DD9600C7AC7F /* Products */,
+				11A60FC46CB27FD5C4F79CC6 /* Pods */,
+				2E6D512DDDA692D111D92FC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8497F1C62123DD9600C7AC7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8497F1C52123DD9600C7AC7F /* Milu.app */,
+				8497F1D92123DDA000C7AC7F /* MiluTests.xctest */,
+				8497F1E42123DDA000C7AC7F /* MiluUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8497F1C72123DD9600C7AC7F /* Milu */ = {
+			isa = PBXGroup;
+			children = (
+				8497F1D42123DD9F00C7AC7F /* Info.plist */,
+				8497F1FA2123DDFA00C7AC7F /* ViewControllers */,
+				8497F1F92123DDE500C7AC7F /* App */,
+				8497F1F62123DDB300C7AC7F /* Resources */,
+			);
+			path = Milu;
+			sourceTree = "<group>";
+		};
+		8497F1DC2123DDA000C7AC7F /* MiluTests */ = {
+			isa = PBXGroup;
+			children = (
+				8497F1DD2123DDA000C7AC7F /* MiluTests.swift */,
+				8497F1DF2123DDA000C7AC7F /* Info.plist */,
+			);
+			path = MiluTests;
+			sourceTree = "<group>";
+		};
+		8497F1E72123DDA000C7AC7F /* MiluUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8497F1E82123DDA000C7AC7F /* MiluUITests.swift */,
+				8497F1EA2123DDA000C7AC7F /* Info.plist */,
+			);
+			path = MiluUITests;
+			sourceTree = "<group>";
+		};
+		8497F1F62123DDB300C7AC7F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8497F1F82123DDD300C7AC7F /* Images */,
+				8497F1F72123DDBC00C7AC7F /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8497F1F72123DDBC00C7AC7F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8497F1CC2123DD9600C7AC7F /* Main.storyboard */,
+				8497F1D12123DD9F00C7AC7F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8497F1F82123DDD300C7AC7F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8497F1CF2123DD9F00C7AC7F /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		8497F1F92123DDE500C7AC7F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8497F1C82123DD9600C7AC7F /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8497F1FA2123DDFA00C7AC7F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8497F1CA2123DD9600C7AC7F /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8497F1C42123DD9600C7AC7F /* Milu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8497F1ED2123DDA000C7AC7F /* Build configuration list for PBXNativeTarget "Milu" */;
+			buildPhases = (
+				2931A5AC193D01577067C293 /* [CP] Check Pods Manifest.lock */,
+				8497F1C12123DD9600C7AC7F /* Sources */,
+				8497F1C22123DD9600C7AC7F /* Frameworks */,
+				8497F1C32123DD9600C7AC7F /* Resources */,
+				DD09F68A02E4DBA05913F0C7 /* [CP] Embed Pods Frameworks */,
+				7372AFB0F9FCA25E9DE51BC6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Milu;
+			productName = Milu;
+			productReference = 8497F1C52123DD9600C7AC7F /* Milu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8497F1D82123DDA000C7AC7F /* MiluTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8497F1F02123DDA000C7AC7F /* Build configuration list for PBXNativeTarget "MiluTests" */;
+			buildPhases = (
+				8497F1D52123DDA000C7AC7F /* Sources */,
+				8497F1D62123DDA000C7AC7F /* Frameworks */,
+				8497F1D72123DDA000C7AC7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8497F1DB2123DDA000C7AC7F /* PBXTargetDependency */,
+			);
+			name = MiluTests;
+			productName = MiluTests;
+			productReference = 8497F1D92123DDA000C7AC7F /* MiluTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8497F1E32123DDA000C7AC7F /* MiluUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8497F1F32123DDA000C7AC7F /* Build configuration list for PBXNativeTarget "MiluUITests" */;
+			buildPhases = (
+				8497F1E02123DDA000C7AC7F /* Sources */,
+				8497F1E12123DDA000C7AC7F /* Frameworks */,
+				8497F1E22123DDA000C7AC7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8497F1E62123DDA000C7AC7F /* PBXTargetDependency */,
+			);
+			name = MiluUITests;
+			productName = MiluUITests;
+			productReference = 8497F1E42123DDA000C7AC7F /* MiluUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8497F1BD2123DD9600C7AC7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Admintest;
+				TargetAttributes = {
+					8497F1C42123DD9600C7AC7F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					8497F1D82123DDA000C7AC7F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8497F1C42123DD9600C7AC7F;
+					};
+					8497F1E32123DDA000C7AC7F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8497F1C42123DD9600C7AC7F;
+					};
+				};
+			};
+			buildConfigurationList = 8497F1C02123DD9600C7AC7F /* Build configuration list for PBXProject "Milu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8497F1BC2123DD9600C7AC7F;
+			productRefGroup = 8497F1C62123DD9600C7AC7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8497F1C42123DD9600C7AC7F /* Milu */,
+				8497F1D82123DDA000C7AC7F /* MiluTests */,
+				8497F1E32123DDA000C7AC7F /* MiluUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8497F1C32123DD9600C7AC7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8497F1D32123DD9F00C7AC7F /* LaunchScreen.storyboard in Resources */,
+				8497F1D02123DD9F00C7AC7F /* Assets.xcassets in Resources */,
+				8497F1CE2123DD9600C7AC7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8497F1D72123DDA000C7AC7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8497F1E22123DDA000C7AC7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2931A5AC193D01577067C293 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Milu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7372AFB0F9FCA25E9DE51BC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Milu/Pods-Milu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD09F68A02E4DBA05913F0C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Milu/Pods-Milu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/APAvatarImageView/APAvatarImageView.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AvatarImageView/AvatarImageView.framework",
+				"${BUILT_PRODUCTS_DIR}/HexColors/HexColors.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SMPageControl/SMPageControl.framework",
+				"${BUILT_PRODUCTS_DIR}/VisualEffectView/VisualEffectView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APAvatarImageView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AvatarImageView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HexColors.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMPageControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VisualEffectView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Milu/Pods-Milu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8497F1C12123DD9600C7AC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8497F1CB2123DD9600C7AC7F /* ViewController.swift in Sources */,
+				8497F1C92123DD9600C7AC7F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8497F1D52123DDA000C7AC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8497F1DE2123DDA000C7AC7F /* MiluTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8497F1E02123DDA000C7AC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8497F1E92123DDA000C7AC7F /* MiluUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8497F1DB2123DDA000C7AC7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8497F1C42123DD9600C7AC7F /* Milu */;
+			targetProxy = 8497F1DA2123DDA000C7AC7F /* PBXContainerItemProxy */;
+		};
+		8497F1E62123DDA000C7AC7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8497F1C42123DD9600C7AC7F /* Milu */;
+			targetProxy = 8497F1E52123DDA000C7AC7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8497F1CC2123DD9600C7AC7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8497F1CD2123DD9600C7AC7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8497F1D12123DD9F00C7AC7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8497F1D22123DD9F00C7AC7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8497F1EB2123DDA000C7AC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8497F1EC2123DDA000C7AC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8497F1EE2123DDA000C7AC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F64C43BEC82119A775A76D /* Pods-Milu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Milu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clio.Milu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8497F1EF2123DDA000C7AC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9E59AF38BAAA338CA2BE0DA /* Pods-Milu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Milu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clio.Milu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8497F1F12123DDA000C7AC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiluTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clio.MiluTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Milu.app/Milu";
+			};
+			name = Debug;
+		};
+		8497F1F22123DDA000C7AC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiluTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clio.MiluTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Milu.app/Milu";
+			};
+			name = Release;
+		};
+		8497F1F42123DDA000C7AC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiluUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clio.MiluUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Milu;
+			};
+			name = Debug;
+		};
+		8497F1F52123DDA000C7AC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiluUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clio.MiluUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Milu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8497F1C02123DD9600C7AC7F /* Build configuration list for PBXProject "Milu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8497F1EB2123DDA000C7AC7F /* Debug */,
+				8497F1EC2123DDA000C7AC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8497F1ED2123DDA000C7AC7F /* Build configuration list for PBXNativeTarget "Milu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8497F1EE2123DDA000C7AC7F /* Debug */,
+				8497F1EF2123DDA000C7AC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8497F1F02123DDA000C7AC7F /* Build configuration list for PBXNativeTarget "MiluTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8497F1F12123DDA000C7AC7F /* Debug */,
+				8497F1F22123DDA000C7AC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8497F1F32123DDA000C7AC7F /* Build configuration list for PBXNativeTarget "MiluUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8497F1F42123DDA000C7AC7F /* Debug */,
+				8497F1F52123DDA000C7AC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8497F1BD2123DD9600C7AC7F /* Project object */;
+}

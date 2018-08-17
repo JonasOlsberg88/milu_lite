@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dog" translatesAutoresizingMaskIntoConstraints="NO" id="79e-wC-5l1">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mep-st-3xJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="CyO-eJ-uEV">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_screen_logo" translatesAutoresizingMaskIntoConstraints="NO" id="NLe-fZ-emC">
+                                <rect key="frame" x="83" y="293" width="208" height="196"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="79e-wC-5l1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4ry-g4-fJu"/>
+                            <constraint firstItem="NLe-fZ-emC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8tF-yv-cuR"/>
+                            <constraint firstItem="mep-st-3xJ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="FL2-TP-7yy"/>
+                            <constraint firstItem="mep-st-3xJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Kf5-TP-jKa"/>
+                            <constraint firstAttribute="bottom" secondItem="79e-wC-5l1" secondAttribute="bottom" id="QOz-59-xSZ"/>
+                            <constraint firstItem="79e-wC-5l1" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="VGV-MM-11p"/>
+                            <constraint firstItem="mep-st-3xJ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bZW-R0-Gz6"/>
+                            <constraint firstAttribute="bottom" secondItem="mep-st-3xJ" secondAttribute="bottom" id="bew-pX-dWc"/>
+                            <constraint firstItem="79e-wC-5l1" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="eca-NZ-WIh"/>
+                            <constraint firstItem="NLe-fZ-emC" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-20" id="thD-kN-DzB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.6305418719212"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dog" width="275" height="372"/>
+        <image name="splash_screen_logo" width="208" height="196"/>
+    </resources>
+</document>
