@@ -14,5 +14,6 @@ target ‘Milu’ do
     pod 'SDWebImage'    
     pod 'HexColors', '~> 2.3'    
     pod 'Alamofire', '~> 4.4'
+    pod 'GoogleMaps'
     pod 'SMPageControl'
 end

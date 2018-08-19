@@ -14,6 +14,20 @@
 		843614692128E97100760765 /* HeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614682128E97100760765 /* HeaderReusableView.swift */; };
 		8436146C2128FA0800760765 /* BMUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436146B2128FA0700760765 /* BMUIViewController.swift */; };
 		8436146E2128FB6B00760765 /* EventTImeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436146D2128FB6B00760765 /* EventTImeCell.swift */; };
+		8436146F2129037000760765 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8497F2072127526800C7AC7F /* Montserrat-Bold.otf */; };
+		843614702129037000760765 /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8436146A2128F85000760765 /* Montserrat-Light.otf */; };
+		843614712129037000760765 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8497F2062127518F00C7AC7F /* Montserrat-Regular.otf */; };
+		84361473212904C000760765 /* EventTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84361472212904C000760765 /* EventTitleCell.swift */; };
+		8436147521290AE300760765 /* GoingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436147421290AE300760765 /* GoingTableViewCell.swift */; };
+		843614772129175300760765 /* EventCalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614762129175300760765 /* EventCalendarCell.swift */; };
+		843614792129185E00760765 /* EventLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614782129185E00760765 /* EventLocationCell.swift */; };
+		8436147B21291F9100760765 /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436147A21291F9100760765 /* MapTableViewCell.swift */; };
+		8436147D212999F400760765 /* HostedbyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436147C212999F400760765 /* HostedbyCell.swift */; };
+		8436147F21299E4C00760765 /* EventDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436147E21299E4C00760765 /* EventDescriptionCell.swift */; };
+		843614812129A27800760765 /* GoingPeopleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614802129A27800760765 /* GoingPeopleCollectionViewCell.swift */; };
+		843614832129A44C00760765 /* GoingPeopleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614822129A44C00760765 /* GoingPeopleTableViewCell.swift */; };
+		843614852129BEFA00760765 /* EventMoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614842129BEFA00760765 /* EventMoreTableViewCell.swift */; };
+		843614872129BFE300760765 /* MoreItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614862129BFE300760765 /* MoreItemCell.swift */; };
 		8497F1C92123DD9600C7AC7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497F1C82123DD9600C7AC7F /* AppDelegate.swift */; };
 		8497F1CB2123DD9600C7AC7F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497F1CA2123DD9600C7AC7F /* SplashViewController.swift */; };
 		8497F1CE2123DD9600C7AC7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8497F1CC2123DD9600C7AC7F /* Main.storyboard */; };
@@ -50,6 +64,17 @@
 		8436146A2128F85000760765 /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
 		8436146B2128FA0700760765 /* BMUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMUIViewController.swift; sourceTree = "<group>"; };
 		8436146D2128FB6B00760765 /* EventTImeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTImeCell.swift; sourceTree = "<group>"; };
+		84361472212904C000760765 /* EventTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTitleCell.swift; sourceTree = "<group>"; };
+		8436147421290AE300760765 /* GoingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoingTableViewCell.swift; sourceTree = "<group>"; };
+		843614762129175300760765 /* EventCalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCalendarCell.swift; sourceTree = "<group>"; };
+		843614782129185E00760765 /* EventLocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventLocationCell.swift; sourceTree = "<group>"; };
+		8436147A21291F9100760765 /* MapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTableViewCell.swift; sourceTree = "<group>"; };
+		8436147C212999F400760765 /* HostedbyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostedbyCell.swift; sourceTree = "<group>"; };
+		8436147E21299E4C00760765 /* EventDescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDescriptionCell.swift; sourceTree = "<group>"; };
+		843614802129A27800760765 /* GoingPeopleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoingPeopleCollectionViewCell.swift; sourceTree = "<group>"; };
+		843614822129A44C00760765 /* GoingPeopleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoingPeopleTableViewCell.swift; sourceTree = "<group>"; };
+		843614842129BEFA00760765 /* EventMoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMoreTableViewCell.swift; sourceTree = "<group>"; };
+		843614862129BFE300760765 /* MoreItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreItemCell.swift; sourceTree = "<group>"; };
 		8497F1C52123DD9600C7AC7F /* Milu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Milu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8497F1C82123DD9600C7AC7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8497F1CA2123DD9600C7AC7F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
@@ -133,7 +158,18 @@
 			isa = PBXGroup;
 			children = (
 				843614622128A09B00760765 /* EventHostHeaderTableViewCell.swift */,
+				84361472212904C000760765 /* EventTitleCell.swift */,
 				8436146D2128FB6B00760765 /* EventTImeCell.swift */,
+				8436147421290AE300760765 /* GoingTableViewCell.swift */,
+				843614762129175300760765 /* EventCalendarCell.swift */,
+				843614782129185E00760765 /* EventLocationCell.swift */,
+				8436147A21291F9100760765 /* MapTableViewCell.swift */,
+				8436147C212999F400760765 /* HostedbyCell.swift */,
+				8436147E21299E4C00760765 /* EventDescriptionCell.swift */,
+				843614802129A27800760765 /* GoingPeopleCollectionViewCell.swift */,
+				843614822129A44C00760765 /* GoingPeopleTableViewCell.swift */,
+				843614842129BEFA00760765 /* EventMoreTableViewCell.swift */,
+				843614862129BFE300760765 /* MoreItemCell.swift */,
 			);
 			path = EventHost;
 			sourceTree = "<group>";
@@ -371,6 +407,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8436146F2129037000760765 /* Montserrat-Bold.otf in Resources */,
+				843614702129037000760765 /* Montserrat-Light.otf in Resources */,
+				843614712129037000760765 /* Montserrat-Regular.otf in Resources */,
 				8497F1D32123DD9F00C7AC7F /* LaunchScreen.storyboard in Resources */,
 				8497F1D02123DD9F00C7AC7F /* Assets.xcassets in Resources */,
 				8497F1CE2123DD9600C7AC7F /* Main.storyboard in Resources */,
@@ -418,9 +457,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Milu/Pods-Milu-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -467,13 +509,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				8436145F2128647E00760765 /* SigninViewController.swift in Sources */,
+				84361473212904C000760765 /* EventTitleCell.swift in Sources */,
 				843614632128A09B00760765 /* EventHostHeaderTableViewCell.swift in Sources */,
 				8436146E2128FB6B00760765 /* EventTImeCell.swift in Sources */,
 				8436145D212861F100760765 /* BaseTabbarViewController.swift in Sources */,
 				843614692128E97100760765 /* HeaderReusableView.swift in Sources */,
+				843614772129175300760765 /* EventCalendarCell.swift in Sources */,
+				843614852129BEFA00760765 /* EventMoreTableViewCell.swift in Sources */,
+				843614792129185E00760765 /* EventLocationCell.swift in Sources */,
+				843614812129A27800760765 /* GoingPeopleCollectionViewCell.swift in Sources */,
 				8497F1CB2123DD9600C7AC7F /* SplashViewController.swift in Sources */,
 				8497F1C92123DD9600C7AC7F /* AppDelegate.swift in Sources */,
+				843614832129A44C00760765 /* GoingPeopleTableViewCell.swift in Sources */,
+				8436147B21291F9100760765 /* MapTableViewCell.swift in Sources */,
+				8436147F21299E4C00760765 /* EventDescriptionCell.swift in Sources */,
+				843614872129BFE300760765 /* MoreItemCell.swift in Sources */,
+				8436147D212999F400760765 /* HostedbyCell.swift in Sources */,
 				843614662128E02500760765 /* EventHostViewController.swift in Sources */,
+				8436147521290AE300760765 /* GoingTableViewCell.swift in Sources */,
 				8436146C2128FA0800760765 /* BMUIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

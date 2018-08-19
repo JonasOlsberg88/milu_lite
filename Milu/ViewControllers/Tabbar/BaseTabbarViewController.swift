@@ -85,13 +85,13 @@ class BaseTabbarViewController: UITabBarController,UITabBarControllerDelegate
         self.tabBar.layer.shadowRadius = 2
         self.tabBar.layer.shadowOpacity = 0.24
         self.tabBar.layer.shadowColor = UIColor.black.cgColor
-        self.tab_bar.layer.backgroundColor = UIColor.black.cgColor
         
         let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.dark)
         let blurEffectView:UIVisualEffectView =  UIVisualEffectView(effect:blurEffect)
         blurEffectView.frame =  self.tab_bar.bounds
         
         self.tab_bar!.insertSubview(blurEffectView,at:0)
+      
         
         let tabItem0 = tabArray?.object(at: 0) as! UITabBarItem
         tabItem0.selectedImage = UIImage(named: strTabOn[currentDay!-1] as! String)!
