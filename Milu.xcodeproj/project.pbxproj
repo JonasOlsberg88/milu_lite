@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8436145D212861F100760765 /* BaseTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436145C212861F100760765 /* BaseTabbarViewController.swift */; };
+		8436145F2128647E00760765 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436145E2128647E00760765 /* SigninViewController.swift */; };
+		843614632128A09B00760765 /* EventHostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614622128A09B00760765 /* EventHostHeaderTableViewCell.swift */; };
+		843614662128E02500760765 /* EventHostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614652128E02500760765 /* EventHostViewController.swift */; };
+		843614692128E97100760765 /* HeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614682128E97100760765 /* HeaderReusableView.swift */; };
+		8436146C2128FA0800760765 /* BMUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436146B2128FA0700760765 /* BMUIViewController.swift */; };
+		8436146E2128FB6B00760765 /* EventTImeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436146D2128FB6B00760765 /* EventTImeCell.swift */; };
 		8497F1C92123DD9600C7AC7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497F1C82123DD9600C7AC7F /* AppDelegate.swift */; };
-		8497F1CB2123DD9600C7AC7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497F1CA2123DD9600C7AC7F /* ViewController.swift */; };
+		8497F1CB2123DD9600C7AC7F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497F1CA2123DD9600C7AC7F /* SplashViewController.swift */; };
 		8497F1CE2123DD9600C7AC7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8497F1CC2123DD9600C7AC7F /* Main.storyboard */; };
 		8497F1D02123DD9F00C7AC7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8497F1CF2123DD9F00C7AC7F /* Assets.xcassets */; };
 		8497F1D32123DD9F00C7AC7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8497F1D12123DD9F00C7AC7F /* LaunchScreen.storyboard */; };
@@ -35,9 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8436145C212861F100760765 /* BaseTabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabbarViewController.swift; sourceTree = "<group>"; };
+		8436145E2128647E00760765 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		843614622128A09B00760765 /* EventHostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventHostHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		843614652128E02500760765 /* EventHostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventHostViewController.swift; sourceTree = "<group>"; };
+		843614682128E97100760765 /* HeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderReusableView.swift; sourceTree = "<group>"; };
+		8436146A2128F85000760765 /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		8436146B2128FA0700760765 /* BMUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMUIViewController.swift; sourceTree = "<group>"; };
+		8436146D2128FB6B00760765 /* EventTImeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTImeCell.swift; sourceTree = "<group>"; };
 		8497F1C52123DD9600C7AC7F /* Milu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Milu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8497F1C82123DD9600C7AC7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8497F1CA2123DD9600C7AC7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8497F1CA2123DD9600C7AC7F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		8497F1CD2123DD9600C7AC7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8497F1CF2123DD9F00C7AC7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8497F1D22123DD9F00C7AC7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,6 +63,8 @@
 		8497F1E42123DDA000C7AC7F /* MiluUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiluUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8497F1E82123DDA000C7AC7F /* MiluUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiluUITests.swift; sourceTree = "<group>"; };
 		8497F1EA2123DDA000C7AC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8497F2062127518F00C7AC7F /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		8497F2072127526800C7AC7F /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
 		8BDA7E45B9BF4800CD271386 /* Pods_Milu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Milu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E59AF38BAAA338CA2BE0DA /* Pods-Milu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Milu/Pods-Milu.release.xcconfig"; sourceTree = "<group>"; };
 		B5F64C43BEC82119A775A76D /* Pods-Milu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Milu/Pods-Milu.debug.xcconfig"; sourceTree = "<group>"; };
@@ -96,6 +113,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8436145B212861C500760765 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				8436145C212861F100760765 /* BaseTabbarViewController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		843614602128A03100760765 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				843614612128A03D00760765 /* EventHost */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		843614612128A03D00760765 /* EventHost */ = {
+			isa = PBXGroup;
+			children = (
+				843614622128A09B00760765 /* EventHostHeaderTableViewCell.swift */,
+				8436146D2128FB6B00760765 /* EventTImeCell.swift */,
+			);
+			path = EventHost;
+			sourceTree = "<group>";
+		};
+		843614642128DFFD00760765 /* EventHost */ = {
+			isa = PBXGroup;
+			children = (
+				843614652128E02500760765 /* EventHostViewController.swift */,
+				843614682128E97100760765 /* HeaderReusableView.swift */,
+			);
+			path = EventHost;
+			sourceTree = "<group>";
+		};
 		8497F1BC2123DD9600C7AC7F = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +172,7 @@
 		8497F1C72123DD9600C7AC7F /* Milu */ = {
 			isa = PBXGroup;
 			children = (
+				843614602128A03100760765 /* Cells */,
 				8497F1D42123DD9F00C7AC7F /* Info.plist */,
 				8497F1FA2123DDFA00C7AC7F /* ViewControllers */,
 				8497F1F92123DDE500C7AC7F /* App */,
@@ -150,6 +202,7 @@
 		8497F1F62123DDB300C7AC7F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8497F2052127516F00C7AC7F /* Fonts */,
 				8497F1F82123DDD300C7AC7F /* Images */,
 				8497F1F72123DDBC00C7AC7F /* Storyboards */,
 			);
@@ -176,6 +229,7 @@
 		8497F1F92123DDE500C7AC7F /* App */ = {
 			isa = PBXGroup;
 			children = (
+				8436146B2128FA0700760765 /* BMUIViewController.swift */,
 				8497F1C82123DD9600C7AC7F /* AppDelegate.swift */,
 			);
 			path = App;
@@ -184,9 +238,30 @@
 		8497F1FA2123DDFA00C7AC7F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				8497F1CA2123DD9600C7AC7F /* ViewController.swift */,
+				843614642128DFFD00760765 /* EventHost */,
+				8436145B212861C500760765 /* Tabbar */,
+				8497F2082127537F00C7AC7F /* Splash */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8497F2052127516F00C7AC7F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8497F2072127526800C7AC7F /* Montserrat-Bold.otf */,
+				8436146A2128F85000760765 /* Montserrat-Light.otf */,
+				8497F2062127518F00C7AC7F /* Montserrat-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8497F2082127537F00C7AC7F /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				8497F1CA2123DD9600C7AC7F /* SplashViewController.swift */,
+				8436145E2128647E00760765 /* SigninViewController.swift */,
+			);
+			path = Splash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,7 +442,6 @@
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SMPageControl/SMPageControl.framework",
-				"${BUILT_PRODUCTS_DIR}/VisualEffectView/VisualEffectView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -379,7 +453,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMPageControl.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VisualEffectView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -393,8 +466,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8497F1CB2123DD9600C7AC7F /* ViewController.swift in Sources */,
+				8436145F2128647E00760765 /* SigninViewController.swift in Sources */,
+				843614632128A09B00760765 /* EventHostHeaderTableViewCell.swift in Sources */,
+				8436146E2128FB6B00760765 /* EventTImeCell.swift in Sources */,
+				8436145D212861F100760765 /* BaseTabbarViewController.swift in Sources */,
+				843614692128E97100760765 /* HeaderReusableView.swift in Sources */,
+				8497F1CB2123DD9600C7AC7F /* SplashViewController.swift in Sources */,
 				8497F1C92123DD9600C7AC7F /* AppDelegate.swift in Sources */,
+				843614662128E02500760765 /* EventHostViewController.swift in Sources */,
+				8436146C2128FA0800760765 /* BMUIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,6 +649,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89L79W5YZ6;
 				INFOPLIST_FILE = Milu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -587,6 +668,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89L79W5YZ6;
 				INFOPLIST_FILE = Milu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

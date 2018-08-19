@@ -15,5 +15,4 @@ target ‘Milu’ do
     pod 'HexColors', '~> 2.3'    
     pod 'Alamofire', '~> 4.4'
     pod 'SMPageControl'
-    pod 'VisualEffectView'
 end

@@ -18,17 +18,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dog" translatesAutoresizingMaskIntoConstraints="NO" id="79e-wC-5l1">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding_background" translatesAutoresizingMaskIntoConstraints="NO" id="79e-wC-5l1">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mep-st-3xJ">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="CyO-eJ-uEV">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                </view>
-                                <blurEffect style="light"/>
-                            </visualEffectView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_screen_logo" translatesAutoresizingMaskIntoConstraints="NO" id="NLe-fZ-emC">
                                 <rect key="frame" x="83" y="293" width="208" height="196"/>
                             </imageView>
@@ -37,12 +29,8 @@
                         <constraints>
                             <constraint firstItem="79e-wC-5l1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4ry-g4-fJu"/>
                             <constraint firstItem="NLe-fZ-emC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8tF-yv-cuR"/>
-                            <constraint firstItem="mep-st-3xJ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="FL2-TP-7yy"/>
-                            <constraint firstItem="mep-st-3xJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Kf5-TP-jKa"/>
                             <constraint firstAttribute="bottom" secondItem="79e-wC-5l1" secondAttribute="bottom" id="QOz-59-xSZ"/>
                             <constraint firstItem="79e-wC-5l1" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="VGV-MM-11p"/>
-                            <constraint firstItem="mep-st-3xJ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bZW-R0-Gz6"/>
-                            <constraint firstAttribute="bottom" secondItem="mep-st-3xJ" secondAttribute="bottom" id="bew-pX-dWc"/>
                             <constraint firstItem="79e-wC-5l1" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="eca-NZ-WIh"/>
                             <constraint firstItem="NLe-fZ-emC" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-20" id="thD-kN-DzB"/>
                         </constraints>
@@ -55,7 +43,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="dog" width="275" height="372"/>
+        <image name="onboarding_background" width="320" height="568"/>
         <image name="splash_screen_logo" width="208" height="196"/>
     </resources>
 </document>
