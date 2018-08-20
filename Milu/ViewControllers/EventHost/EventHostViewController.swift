@@ -82,8 +82,7 @@ class EventHostViewController: UIViewController,UITableViewDelegate,UITableViewD
         case 0:
             
             let headerCell = tableView.dequeueReusableCell(withIdentifier: "EventHostHeaderTableViewCell", for: indexPath as IndexPath) as! EventHostHeaderTableViewCell
-//            posterCell.posterButton.addTarget(self, action: #selector(goPosterView(button:)), for: .touchUpInside)
-//            posterCell.liveButton.addTarget(self, action: #selector(goLive(button:)), for: .touchUpInside)
+            headerCell.settingButton.addTarget(self, action: #selector(goEditMeetup(button:)), for: .touchUpInside)
             cell = headerCell
             break
         case 1:
@@ -146,6 +145,12 @@ class EventHostViewController: UIViewController,UITableViewDelegate,UITableViewD
         previousOffset = scrollView.contentOffset.y
         
         self.bgImageView.frame = CGRect(x: rect.origin.x, y: rect.origin.y, width: self.view.frame.width, height: scrollView.contentSize.height)
+    }
+    
+    @objc func goEditMeetup(button: UIButton){
+        
+        self.performSegue(withIdentifier: "goEditMeetup", sender: nil)
+        
     }
     
 }

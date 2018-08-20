@@ -28,6 +28,16 @@
 		843614832129A44C00760765 /* GoingPeopleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614822129A44C00760765 /* GoingPeopleTableViewCell.swift */; };
 		843614852129BEFA00760765 /* EventMoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614842129BEFA00760765 /* EventMoreTableViewCell.swift */; };
 		843614872129BFE300760765 /* MoreItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614862129BFE300760765 /* MoreItemCell.swift */; };
+		8436148A2129D6BF00760765 /* EventEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614892129D6BF00760765 /* EventEditViewController.swift */; };
+		8436148D2129E15500760765 /* AddHeaderPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436148C2129E15500760765 /* AddHeaderPhotoCell.swift */; };
+		8436148F2129E4A000760765 /* EventPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436148E2129E4A000760765 /* EventPhotoCell.swift */; };
+		843614912129F30A00760765 /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614902129F30A00760765 /* TitleCell.swift */; };
+		843614972129F4C000760765 /* TPKeyboardAvoidingSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614962129F4C000760765 /* TPKeyboardAvoidingSwift.swift */; };
+		84361499212A0D1F00760765 /* AddressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84361498212A0D1F00760765 /* AddressCell.swift */; };
+		8436149B212A191900760765 /* AllDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436149A212A191900760765 /* AllDayCell.swift */; };
+		8436149D212A1F5100760765 /* StartsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436149C212A1F5100760765 /* StartsCell.swift */; };
+		8436149F212A32A900760765 /* DurationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436149E212A32A900760765 /* DurationCell.swift */; };
+		843614A2212A43E000760765 /* TimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614A1212A43E000760765 /* TimePickerView.swift */; };
 		8497F1C92123DD9600C7AC7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497F1C82123DD9600C7AC7F /* AppDelegate.swift */; };
 		8497F1CB2123DD9600C7AC7F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497F1CA2123DD9600C7AC7F /* SplashViewController.swift */; };
 		8497F1CE2123DD9600C7AC7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8497F1CC2123DD9600C7AC7F /* Main.storyboard */; };
@@ -75,6 +85,16 @@
 		843614822129A44C00760765 /* GoingPeopleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoingPeopleTableViewCell.swift; sourceTree = "<group>"; };
 		843614842129BEFA00760765 /* EventMoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMoreTableViewCell.swift; sourceTree = "<group>"; };
 		843614862129BFE300760765 /* MoreItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreItemCell.swift; sourceTree = "<group>"; };
+		843614892129D6BF00760765 /* EventEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditViewController.swift; sourceTree = "<group>"; };
+		8436148C2129E15500760765 /* AddHeaderPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHeaderPhotoCell.swift; sourceTree = "<group>"; };
+		8436148E2129E4A000760765 /* EventPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPhotoCell.swift; sourceTree = "<group>"; };
+		843614902129F30A00760765 /* TitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
+		843614962129F4C000760765 /* TPKeyboardAvoidingSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TPKeyboardAvoidingSwift.swift; sourceTree = "<group>"; };
+		84361498212A0D1F00760765 /* AddressCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressCell.swift; sourceTree = "<group>"; };
+		8436149A212A191900760765 /* AllDayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDayCell.swift; sourceTree = "<group>"; };
+		8436149C212A1F5100760765 /* StartsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartsCell.swift; sourceTree = "<group>"; };
+		8436149E212A32A900760765 /* DurationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationCell.swift; sourceTree = "<group>"; };
+		843614A1212A43E000760765 /* TimePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePickerView.swift; sourceTree = "<group>"; };
 		8497F1C52123DD9600C7AC7F /* Milu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Milu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8497F1C82123DD9600C7AC7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8497F1CA2123DD9600C7AC7F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
@@ -149,6 +169,7 @@
 		843614602128A03100760765 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				8436148B2129E12500760765 /* EventEdit */,
 				843614612128A03D00760765 /* EventHost */,
 			);
 			path = Cells;
@@ -183,6 +204,60 @@
 			path = EventHost;
 			sourceTree = "<group>";
 		};
+		843614882129D69800760765 /* EditEvent */ = {
+			isa = PBXGroup;
+			children = (
+				843614892129D6BF00760765 /* EventEditViewController.swift */,
+			);
+			path = EditEvent;
+			sourceTree = "<group>";
+		};
+		8436148B2129E12500760765 /* EventEdit */ = {
+			isa = PBXGroup;
+			children = (
+				8436148C2129E15500760765 /* AddHeaderPhotoCell.swift */,
+				8436148E2129E4A000760765 /* EventPhotoCell.swift */,
+				843614902129F30A00760765 /* TitleCell.swift */,
+				84361498212A0D1F00760765 /* AddressCell.swift */,
+				8436149A212A191900760765 /* AllDayCell.swift */,
+				8436149C212A1F5100760765 /* StartsCell.swift */,
+				8436149E212A32A900760765 /* DurationCell.swift */,
+			);
+			path = EventEdit;
+			sourceTree = "<group>";
+		};
+		843614932129F4A800760765 /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				843614942129F4C000760765 /* TPKeyboardAvoidingSwift */,
+			);
+			path = CustomClass;
+			sourceTree = "<group>";
+		};
+		843614942129F4C000760765 /* TPKeyboardAvoidingSwift */ = {
+			isa = PBXGroup;
+			children = (
+				843614952129F4C000760765 /* Classes */,
+			);
+			path = TPKeyboardAvoidingSwift;
+			sourceTree = "<group>";
+		};
+		843614952129F4C000760765 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				843614962129F4C000760765 /* TPKeyboardAvoidingSwift.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		843614A0212A43D400760765 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				843614A1212A43E000760765 /* TimePickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		8497F1BC2123DD9600C7AC7F = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +283,8 @@
 		8497F1C72123DD9600C7AC7F /* Milu */ = {
 			isa = PBXGroup;
 			children = (
+				843614A0212A43D400760765 /* Views */,
+				843614932129F4A800760765 /* CustomClass */,
 				843614602128A03100760765 /* Cells */,
 				8497F1D42123DD9F00C7AC7F /* Info.plist */,
 				8497F1FA2123DDFA00C7AC7F /* ViewControllers */,
@@ -274,6 +351,7 @@
 		8497F1FA2123DDFA00C7AC7F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				843614882129D69800760765 /* EditEvent */,
 				843614642128DFFD00760765 /* EventHost */,
 				8436145B212861C500760765 /* Tabbar */,
 				8497F2082127537F00C7AC7F /* Splash */,
@@ -484,6 +562,7 @@
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SMPageControl/SMPageControl.framework",
+				"${BUILT_PRODUCTS_DIR}/SevenSwitch/SevenSwitch.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -495,6 +574,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMPageControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SevenSwitch.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -508,26 +588,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8436149F212A32A900760765 /* DurationCell.swift in Sources */,
 				8436145F2128647E00760765 /* SigninViewController.swift in Sources */,
+				8436148A2129D6BF00760765 /* EventEditViewController.swift in Sources */,
 				84361473212904C000760765 /* EventTitleCell.swift in Sources */,
 				843614632128A09B00760765 /* EventHostHeaderTableViewCell.swift in Sources */,
 				8436146E2128FB6B00760765 /* EventTImeCell.swift in Sources */,
 				8436145D212861F100760765 /* BaseTabbarViewController.swift in Sources */,
 				843614692128E97100760765 /* HeaderReusableView.swift in Sources */,
+				8436148F2129E4A000760765 /* EventPhotoCell.swift in Sources */,
 				843614772129175300760765 /* EventCalendarCell.swift in Sources */,
 				843614852129BEFA00760765 /* EventMoreTableViewCell.swift in Sources */,
 				843614792129185E00760765 /* EventLocationCell.swift in Sources */,
 				843614812129A27800760765 /* GoingPeopleCollectionViewCell.swift in Sources */,
+				843614A2212A43E000760765 /* TimePickerView.swift in Sources */,
+				84361499212A0D1F00760765 /* AddressCell.swift in Sources */,
+				8436149B212A191900760765 /* AllDayCell.swift in Sources */,
+				843614912129F30A00760765 /* TitleCell.swift in Sources */,
 				8497F1CB2123DD9600C7AC7F /* SplashViewController.swift in Sources */,
+				8436149D212A1F5100760765 /* StartsCell.swift in Sources */,
 				8497F1C92123DD9600C7AC7F /* AppDelegate.swift in Sources */,
 				843614832129A44C00760765 /* GoingPeopleTableViewCell.swift in Sources */,
 				8436147B21291F9100760765 /* MapTableViewCell.swift in Sources */,
 				8436147F21299E4C00760765 /* EventDescriptionCell.swift in Sources */,
 				843614872129BFE300760765 /* MoreItemCell.swift in Sources */,
+				843614972129F4C000760765 /* TPKeyboardAvoidingSwift.swift in Sources */,
 				8436147D212999F400760765 /* HostedbyCell.swift in Sources */,
 				843614662128E02500760765 /* EventHostViewController.swift in Sources */,
 				8436147521290AE300760765 /* GoingTableViewCell.swift in Sources */,
 				8436146C2128FA0800760765 /* BMUIViewController.swift in Sources */,
+				8436148D2129E15500760765 /* AddHeaderPhotoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

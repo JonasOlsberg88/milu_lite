@@ -1,16 +1,15 @@
 //
-//  EventHostHeaderTableViewCell.swift
+//  AddressCell.swift
 //  Milu
 //
-//  Created by Admin on 8/18/18.
+//  Created by Admin on 8/19/18.
 //  Copyright © 2018 Admintest. All rights reserved.
 //
 
 import UIKit
 
-class EventHostHeaderTableViewCell: UITableViewCell {
+class AddressCell: UITableViewCell {
 
-    @IBOutlet weak var settingButton: UIButton!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

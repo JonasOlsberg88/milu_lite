@@ -16,4 +16,5 @@ target ‘Milu’ do
     pod 'Alamofire', '~> 4.4'
     pod 'GoogleMaps'
     pod 'SMPageControl'
+    pod 'SevenSwitch', '~> 2.1'
 end
