@@ -121,6 +121,12 @@ class EventHostViewController: UIViewController,UITableViewDelegate,UITableViewD
         case 9:
             let goingPeopleCell = tableView.dequeueReusableCell(withIdentifier: "GoingPeopleTableViewCell", for: indexPath as IndexPath) as! GoingPeopleTableViewCell
             goingPeopleCell.goingCollectionView.reloadData()
+            let tap1 = UITapGestureRecognizer(target: self, action: #selector(self.gotoGuests))
+            goingPeopleCell.goingCollectionView.addGestureRecognizer(tap1)
+            
+            let tap2 = UITapGestureRecognizer(target: self, action: #selector(self.gotoGuests))
+            goingPeopleCell.nextButton.addGestureRecognizer(tap2)
+            
             cell = goingPeopleCell
             break
             
@@ -151,6 +157,11 @@ class EventHostViewController: UIViewController,UITableViewDelegate,UITableViewD
         
         self.performSegue(withIdentifier: "goEditMeetup", sender: nil)
         
+    }
+    
+    @objc func gotoGuests(sender:UITapGestureRecognizer) {
+        
+         self.performSegue(withIdentifier: "goGuests", sender: nil)
     }
     
 }

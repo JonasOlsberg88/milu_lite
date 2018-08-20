@@ -38,6 +38,13 @@
 		8436149D212A1F5100760765 /* StartsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436149C212A1F5100760765 /* StartsCell.swift */; };
 		8436149F212A32A900760765 /* DurationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436149E212A32A900760765 /* DurationCell.swift */; };
 		843614A2212A43E000760765 /* TimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614A1212A43E000760765 /* TimePickerView.swift */; };
+		843614A5212A694300760765 /* RepeatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614A4212A694300760765 /* RepeatCell.swift */; };
+		843614A7212A6B9700760765 /* HostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614A6212A6B9700760765 /* HostCell.swift */; };
+		843614AA212A71A200760765 /* DescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614A9212A71A200760765 /* DescriptionCell.swift */; };
+		843614AC212AF2D200760765 /* InviteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614AB212AF2D200760765 /* InviteCell.swift */; };
+		843614AE212AF50800760765 /* PrivateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614AD212AF50800760765 /* PrivateCell.swift */; };
+		843614B0212AF6B400760765 /* AllowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614AF212AF6B400760765 /* AllowCell.swift */; };
+		843614B2212AF85600760765 /* SavebuttonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614B1212AF85600760765 /* SavebuttonCell.swift */; };
 		8497F1C92123DD9600C7AC7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497F1C82123DD9600C7AC7F /* AppDelegate.swift */; };
 		8497F1CB2123DD9600C7AC7F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497F1CA2123DD9600C7AC7F /* SplashViewController.swift */; };
 		8497F1CE2123DD9600C7AC7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8497F1CC2123DD9600C7AC7F /* Main.storyboard */; };
@@ -45,6 +52,11 @@
 		8497F1D32123DD9F00C7AC7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8497F1D12123DD9F00C7AC7F /* LaunchScreen.storyboard */; };
 		8497F1DE2123DDA000C7AC7F /* MiluTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497F1DD2123DDA000C7AC7F /* MiluTests.swift */; };
 		8497F1E92123DDA000C7AC7F /* MiluUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497F1E82123DDA000C7AC7F /* MiluUITests.swift */; };
+		84D9FCBD212AFF700030F8AD /* GuestListContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCBC212AFF700030F8AD /* GuestListContainerViewController.swift */; };
+		84D9FCBF212B11E80030F8AD /* GoingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCBE212B11E70030F8AD /* GoingViewController.swift */; };
+		84D9FCC1212B11FF0030F8AD /* MaybeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCC0212B11FF0030F8AD /* MaybeViewController.swift */; };
+		84D9FCC3212B120B0030F8AD /* NopeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCC2212B120B0030F8AD /* NopeViewController.swift */; };
+		84D9FCC6212B17DD0030F8AD /* GuestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCC5212B17DD0030F8AD /* GuestTableViewCell.swift */; };
 		9EE7C9D428224A4B315AF72E /* Pods_Milu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDA7E45B9BF4800CD271386 /* Pods_Milu.framework */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +107,13 @@
 		8436149C212A1F5100760765 /* StartsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartsCell.swift; sourceTree = "<group>"; };
 		8436149E212A32A900760765 /* DurationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationCell.swift; sourceTree = "<group>"; };
 		843614A1212A43E000760765 /* TimePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePickerView.swift; sourceTree = "<group>"; };
+		843614A4212A694300760765 /* RepeatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatCell.swift; sourceTree = "<group>"; };
+		843614A6212A6B9700760765 /* HostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostCell.swift; sourceTree = "<group>"; };
+		843614A9212A71A200760765 /* DescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionCell.swift; sourceTree = "<group>"; };
+		843614AB212AF2D200760765 /* InviteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteCell.swift; sourceTree = "<group>"; };
+		843614AD212AF50800760765 /* PrivateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateCell.swift; sourceTree = "<group>"; };
+		843614AF212AF6B400760765 /* AllowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllowCell.swift; sourceTree = "<group>"; };
+		843614B1212AF85600760765 /* SavebuttonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavebuttonCell.swift; sourceTree = "<group>"; };
 		8497F1C52123DD9600C7AC7F /* Milu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Milu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8497F1C82123DD9600C7AC7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8497F1CA2123DD9600C7AC7F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +129,11 @@
 		8497F1EA2123DDA000C7AC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8497F2062127518F00C7AC7F /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
 		8497F2072127526800C7AC7F /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		84D9FCBC212AFF700030F8AD /* GuestListContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestListContainerViewController.swift; sourceTree = "<group>"; };
+		84D9FCBE212B11E70030F8AD /* GoingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoingViewController.swift; sourceTree = "<group>"; };
+		84D9FCC0212B11FF0030F8AD /* MaybeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaybeViewController.swift; sourceTree = "<group>"; };
+		84D9FCC2212B120B0030F8AD /* NopeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NopeViewController.swift; sourceTree = "<group>"; };
+		84D9FCC5212B17DD0030F8AD /* GuestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestTableViewCell.swift; sourceTree = "<group>"; };
 		8BDA7E45B9BF4800CD271386 /* Pods_Milu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Milu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E59AF38BAAA338CA2BE0DA /* Pods-Milu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Milu/Pods-Milu.release.xcconfig"; sourceTree = "<group>"; };
 		B5F64C43BEC82119A775A76D /* Pods-Milu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Milu/Pods-Milu.debug.xcconfig"; sourceTree = "<group>"; };
@@ -169,6 +193,7 @@
 		843614602128A03100760765 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				84D9FCC4212B17AA0030F8AD /* GuestsList */,
 				8436148B2129E12500760765 /* EventEdit */,
 				843614612128A03D00760765 /* EventHost */,
 			);
@@ -222,6 +247,13 @@
 				8436149A212A191900760765 /* AllDayCell.swift */,
 				8436149C212A1F5100760765 /* StartsCell.swift */,
 				8436149E212A32A900760765 /* DurationCell.swift */,
+				843614A4212A694300760765 /* RepeatCell.swift */,
+				843614A6212A6B9700760765 /* HostCell.swift */,
+				843614A9212A71A200760765 /* DescriptionCell.swift */,
+				843614AB212AF2D200760765 /* InviteCell.swift */,
+				843614AD212AF50800760765 /* PrivateCell.swift */,
+				843614AF212AF6B400760765 /* AllowCell.swift */,
+				843614B1212AF85600760765 /* SavebuttonCell.swift */,
 			);
 			path = EventEdit;
 			sourceTree = "<group>";
@@ -351,6 +383,7 @@
 		8497F1FA2123DDFA00C7AC7F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				84D9FCBB212AFF410030F8AD /* GuestList */,
 				843614882129D69800760765 /* EditEvent */,
 				843614642128DFFD00760765 /* EventHost */,
 				8436145B212861C500760765 /* Tabbar */,
@@ -376,6 +409,25 @@
 				8436145E2128647E00760765 /* SigninViewController.swift */,
 			);
 			path = Splash;
+			sourceTree = "<group>";
+		};
+		84D9FCBB212AFF410030F8AD /* GuestList */ = {
+			isa = PBXGroup;
+			children = (
+				84D9FCBC212AFF700030F8AD /* GuestListContainerViewController.swift */,
+				84D9FCBE212B11E70030F8AD /* GoingViewController.swift */,
+				84D9FCC0212B11FF0030F8AD /* MaybeViewController.swift */,
+				84D9FCC2212B120B0030F8AD /* NopeViewController.swift */,
+			);
+			path = GuestList;
+			sourceTree = "<group>";
+		};
+		84D9FCC4212B17AA0030F8AD /* GuestsList */ = {
+			isa = PBXGroup;
+			children = (
+				84D9FCC5212B17DD0030F8AD /* GuestTableViewCell.swift */,
+			);
+			path = GuestsList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -559,6 +611,7 @@
 				"${BUILT_PRODUCTS_DIR}/AvatarImageView/AvatarImageView.framework",
 				"${BUILT_PRODUCTS_DIR}/HexColors/HexColors.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MultilineTextField/MultilineTextField.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SMPageControl/SMPageControl.framework",
@@ -571,6 +624,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AvatarImageView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HexColors.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MultilineTextField.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMPageControl.framework",
@@ -589,16 +643,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				8436149F212A32A900760765 /* DurationCell.swift in Sources */,
+				843614AE212AF50800760765 /* PrivateCell.swift in Sources */,
 				8436145F2128647E00760765 /* SigninViewController.swift in Sources */,
 				8436148A2129D6BF00760765 /* EventEditViewController.swift in Sources */,
 				84361473212904C000760765 /* EventTitleCell.swift in Sources */,
 				843614632128A09B00760765 /* EventHostHeaderTableViewCell.swift in Sources */,
+				84D9FCC6212B17DD0030F8AD /* GuestTableViewCell.swift in Sources */,
 				8436146E2128FB6B00760765 /* EventTImeCell.swift in Sources */,
 				8436145D212861F100760765 /* BaseTabbarViewController.swift in Sources */,
+				843614A7212A6B9700760765 /* HostCell.swift in Sources */,
 				843614692128E97100760765 /* HeaderReusableView.swift in Sources */,
 				8436148F2129E4A000760765 /* EventPhotoCell.swift in Sources */,
 				843614772129175300760765 /* EventCalendarCell.swift in Sources */,
+				84D9FCBF212B11E80030F8AD /* GoingViewController.swift in Sources */,
 				843614852129BEFA00760765 /* EventMoreTableViewCell.swift in Sources */,
+				843614AC212AF2D200760765 /* InviteCell.swift in Sources */,
 				843614792129185E00760765 /* EventLocationCell.swift in Sources */,
 				843614812129A27800760765 /* GoingPeopleCollectionViewCell.swift in Sources */,
 				843614A2212A43E000760765 /* TimePickerView.swift in Sources */,
@@ -607,17 +666,24 @@
 				843614912129F30A00760765 /* TitleCell.swift in Sources */,
 				8497F1CB2123DD9600C7AC7F /* SplashViewController.swift in Sources */,
 				8436149D212A1F5100760765 /* StartsCell.swift in Sources */,
+				843614AA212A71A200760765 /* DescriptionCell.swift in Sources */,
 				8497F1C92123DD9600C7AC7F /* AppDelegate.swift in Sources */,
+				84D9FCC1212B11FF0030F8AD /* MaybeViewController.swift in Sources */,
 				843614832129A44C00760765 /* GoingPeopleTableViewCell.swift in Sources */,
 				8436147B21291F9100760765 /* MapTableViewCell.swift in Sources */,
 				8436147F21299E4C00760765 /* EventDescriptionCell.swift in Sources */,
 				843614872129BFE300760765 /* MoreItemCell.swift in Sources */,
 				843614972129F4C000760765 /* TPKeyboardAvoidingSwift.swift in Sources */,
+				843614B0212AF6B400760765 /* AllowCell.swift in Sources */,
+				843614B2212AF85600760765 /* SavebuttonCell.swift in Sources */,
 				8436147D212999F400760765 /* HostedbyCell.swift in Sources */,
 				843614662128E02500760765 /* EventHostViewController.swift in Sources */,
+				84D9FCBD212AFF700030F8AD /* GuestListContainerViewController.swift in Sources */,
 				8436147521290AE300760765 /* GoingTableViewCell.swift in Sources */,
 				8436146C2128FA0800760765 /* BMUIViewController.swift in Sources */,
+				84D9FCC3212B120B0030F8AD /* NopeViewController.swift in Sources */,
 				8436148D2129E15500760765 /* AddHeaderPhotoCell.swift in Sources */,
+				843614A5212A694300760765 /* RepeatCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

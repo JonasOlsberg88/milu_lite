@@ -12,6 +12,7 @@ class GoingPeopleTableViewCell: UITableViewCell,UICollectionViewDelegateFlowLayo
     
     
 
+    @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var goingCollectionView: UICollectionView!
     override func awakeFromNib() {
         super.awakeFromNib()

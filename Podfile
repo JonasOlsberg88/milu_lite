@@ -17,4 +17,5 @@ target ‘Milu’ do
     pod 'GoogleMaps'
     pod 'SMPageControl'
     pod 'SevenSwitch', '~> 2.1'
+    pod 'MultilineTextField'
 end

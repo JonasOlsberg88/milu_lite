@@ -20,5 +20,7 @@ class SigninViewController: UIViewController {
         
         self.performSegue(withIdentifier: "goHome", sender: nil)
     }
-    
+    override var preferredStatusBarStyle : UIStatusBarStyle {
+        return .lightContent
+    }
 }

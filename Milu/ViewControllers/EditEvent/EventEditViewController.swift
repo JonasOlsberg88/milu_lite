@@ -18,6 +18,7 @@ class EventEditViewController: UIViewController,UITableViewDelegate,UITableViewD
     var bIsShowDurationPicker = false
     var startDate = ""
     var duration = ""
+    var eventDesciption = ""
     let dateFormatter = DateFormatter()
     let durationFormatter = DateFormatter()
     var previousOffset:CGFloat = 0
@@ -64,7 +65,7 @@ class EventEditViewController: UIViewController,UITableViewDelegate,UITableViewD
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 9
+        return 19
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -94,16 +95,26 @@ class EventEditViewController: UIViewController,UITableViewDelegate,UITableViewD
             }else{
                 return 37
             }
-//        case 6:
-//            return 134
-//        case 7:
-//            return 44
-//        case 8:
-//            return UITableViewAutomaticDimension
-//        case 9:
-//            return 136
-//        case 10:
-//            return 78 * 3 + 36
+        case 9:
+            return 36
+        case 10:
+            return 48
+        case 11:
+            return 12
+        case 12:
+            return 180
+        case 13:
+            return 48
+        case 14:
+            return 36
+        case 15:
+            return 36
+        case 16:
+            return 12
+        case 17:
+            return 60
+        case 18:
+            return 24
         default:
             break
         }
@@ -182,6 +193,46 @@ class EventEditViewController: UIViewController,UITableViewDelegate,UITableViewD
                 durationCell.durationView.isHidden = true
             }
             cell = durationCell
+            break
+        case 9:
+            let repeatCell = tableView.dequeueReusableCell(withIdentifier: "RepeatCell", for: indexPath as IndexPath) as! RepeatCell
+            cell = repeatCell
+            break
+        case 10:
+            let hostCell = tableView.dequeueReusableCell(withIdentifier: "HostCell", for: indexPath as IndexPath) as! HostCell
+            cell = hostCell
+            break
+        case 11:
+            let emptyCell = tableView.dequeueReusableCell(withIdentifier: "emptyCell", for: indexPath as IndexPath)
+            cell = emptyCell
+            break
+        case 12:
+            let descCell = tableView.dequeueReusableCell(withIdentifier: "DescriptionCell", for: indexPath as IndexPath) as! DescriptionCell
+            cell = descCell
+            break
+        case 13:
+            let inviteCell = tableView.dequeueReusableCell(withIdentifier: "InviteCell", for: indexPath as IndexPath) as! InviteCell
+            cell = inviteCell
+            break
+        case 14:
+            let privateCell = tableView.dequeueReusableCell(withIdentifier: "PrivateCell", for: indexPath as IndexPath) as! PrivateCell
+            cell = privateCell
+            break
+        case 15:
+            let allowCell = tableView.dequeueReusableCell(withIdentifier: "AllowCell", for: indexPath as IndexPath) as! AllowCell
+            cell = allowCell
+            break
+        case 16:
+            let emptyCell = tableView.dequeueReusableCell(withIdentifier: "emptyCell1", for: indexPath as IndexPath)
+            cell = emptyCell
+            break
+        case 17:
+            let saveCell = tableView.dequeueReusableCell(withIdentifier: "SavebuttonCell", for: indexPath as IndexPath) as! SavebuttonCell
+            cell = saveCell
+            break
+        case 18:
+            let emptyCell = tableView.dequeueReusableCell(withIdentifier: "emptyCell2", for: indexPath as IndexPath)
+            cell = emptyCell
             break
 //        case 8:
 //            let descriptionCell = tableView.dequeueReusableCell(withIdentifier: "EventDescriptionCell", for: indexPath as IndexPath) as! EventDescriptionCell
