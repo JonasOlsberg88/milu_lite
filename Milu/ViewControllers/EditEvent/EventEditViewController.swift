@@ -216,6 +216,7 @@ class EventEditViewController: UIViewController,UITableViewDelegate,UITableViewD
             break
         case 10:
             let hostCell = tableView.dequeueReusableCell(withIdentifier: "HostCell", for: indexPath as IndexPath) as! HostCell
+            hostCell.hostButton.addTarget(self, action: #selector(didTapOnHost(button:)), for: .touchUpInside)
             cell = hostCell
             break
         case 11:
@@ -228,6 +229,7 @@ class EventEditViewController: UIViewController,UITableViewDelegate,UITableViewD
             break
         case 13:
             let inviteCell = tableView.dequeueReusableCell(withIdentifier: "InviteCell", for: indexPath as IndexPath) as! InviteCell
+            inviteCell.button.addTarget(self, action: #selector(didTapOnInvite(button:)), for: .touchUpInside)
             cell = inviteCell
             break
         case 14:
@@ -309,6 +311,18 @@ class EventEditViewController: UIViewController,UITableViewDelegate,UITableViewD
         let repeatViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "RepeatViewController") as? RepeatViewController
         repeatViewController?.delegate = self
         self.navigationController?.pushViewController(repeatViewController!, animated: true)
+        
+    }
+    
+    @objc func didTapOnHost(button: UIButton){
+        
+       self.performSegue(withIdentifier: "goHosts", sender: nil)
+        
+    }
+    
+    @objc func didTapOnInvite(button: UIButton){
+        
+        self.performSegue(withIdentifier: "goInvite", sender: nil)
         
     }
     

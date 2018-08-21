@@ -10,6 +10,9 @@
 		8420255C212C44900050B5C8 /* RepeatWeekDaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8420255B212C44900050B5C8 /* RepeatWeekDaysViewController.swift */; };
 		8420255F212C48EC0050B5C8 /* RepeatMonthDaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8420255E212C48EC0050B5C8 /* RepeatMonthDaysViewController.swift */; };
 		84202561212C53C30050B5C8 /* CustomPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84202560212C53C30050B5C8 /* CustomPicker.swift */; };
+		84202564212C59AC0050B5C8 /* AddHostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84202563212C59AC0050B5C8 /* AddHostsViewController.swift */; };
+		84202567212C656B0050B5C8 /* HostItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84202566212C656B0050B5C8 /* HostItemTableViewCell.swift */; };
+		8420256A212C7B410050B5C8 /* AddInviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84202569212C7B410050B5C8 /* AddInviteViewController.swift */; };
 		8436145D212861F100760765 /* BaseTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436145C212861F100760765 /* BaseTabbarViewController.swift */; };
 		8436145F2128647E00760765 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436145E2128647E00760765 /* SigninViewController.swift */; };
 		843614632128A09B00760765 /* EventHostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614622128A09B00760765 /* EventHostHeaderTableViewCell.swift */; };
@@ -155,6 +158,9 @@
 		8420255B212C44900050B5C8 /* RepeatWeekDaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatWeekDaysViewController.swift; sourceTree = "<group>"; };
 		8420255E212C48EC0050B5C8 /* RepeatMonthDaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatMonthDaysViewController.swift; sourceTree = "<group>"; };
 		84202560212C53C30050B5C8 /* CustomPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPicker.swift; sourceTree = "<group>"; };
+		84202563212C59AC0050B5C8 /* AddHostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHostsViewController.swift; sourceTree = "<group>"; };
+		84202566212C656B0050B5C8 /* HostItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostItemTableViewCell.swift; sourceTree = "<group>"; };
+		84202569212C7B410050B5C8 /* AddInviteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInviteViewController.swift; sourceTree = "<group>"; };
 		8436145C212861F100760765 /* BaseTabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabbarViewController.swift; sourceTree = "<group>"; };
 		8436145E2128647E00760765 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
 		843614622128A09B00760765 /* EventHostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventHostHeaderTableViewCell.swift; sourceTree = "<group>"; };
@@ -307,6 +313,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		84202562212C59860050B5C8 /* Hosts */ = {
+			isa = PBXGroup;
+			children = (
+				84202563212C59AC0050B5C8 /* AddHostsViewController.swift */,
+			);
+			path = Hosts;
+			sourceTree = "<group>";
+		};
+		84202565212C65520050B5C8 /* Hosts */ = {
+			isa = PBXGroup;
+			children = (
+				84202566212C656B0050B5C8 /* HostItemTableViewCell.swift */,
+			);
+			path = Hosts;
+			sourceTree = "<group>";
+		};
+		84202568212C7B220050B5C8 /* Invite */ = {
+			isa = PBXGroup;
+			children = (
+				84202569212C7B410050B5C8 /* AddInviteViewController.swift */,
+			);
+			path = Invite;
+			sourceTree = "<group>";
+		};
 		8436145B212861C500760765 /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
@@ -318,6 +348,7 @@
 		843614602128A03100760765 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				84202565212C65520050B5C8 /* Hosts */,
 				84D9FCE7212B9E4A0030F8AD /* Repeats */,
 				84D9FCC4212B17AA0030F8AD /* GuestsList */,
 				8436148B2129E12500760765 /* EventEdit */,
@@ -518,6 +549,8 @@
 		8497F1FA2123DDFA00C7AC7F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				84202568212C7B220050B5C8 /* Invite */,
+				84202562212C59860050B5C8 /* Hosts */,
 				84D9FCE1212B7FE00030F8AD /* Repeat */,
 				84D9FCC7212B26DC0030F8AD /* EditCoverPhoto */,
 				84D9FCBB212AFF410030F8AD /* GuestList */,
@@ -964,6 +997,7 @@
 				8436146E2128FB6B00760765 /* EventTImeCell.swift in Sources */,
 				8436145D212861F100760765 /* BaseTabbarViewController.swift in Sources */,
 				84202561212C53C30050B5C8 /* CustomPicker.swift in Sources */,
+				8420256A212C7B410050B5C8 /* AddInviteViewController.swift in Sources */,
 				84D9FCE6212B9BE50030F8AD /* RepeatDayIntervalViewController.swift in Sources */,
 				843614A7212A6B9700760765 /* HostCell.swift in Sources */,
 				843614692128E97100760765 /* HeaderReusableView.swift in Sources */,
@@ -982,6 +1016,7 @@
 				84361499212A0D1F00760765 /* AddressCell.swift in Sources */,
 				8436149B212A191900760765 /* AllDayCell.swift in Sources */,
 				84D9FD1A212BB1710030F8AD /* NSDate+Escort.m in Sources */,
+				84202567212C656B0050B5C8 /* HostItemTableViewCell.swift in Sources */,
 				843614912129F30A00760765 /* TitleCell.swift in Sources */,
 				8497F1CB2123DD9600C7AC7F /* SplashViewController.swift in Sources */,
 				8436149D212A1F5100760765 /* StartsCell.swift in Sources */,
@@ -997,6 +1032,7 @@
 				84D9FCF1212BABC30030F8AD /* RepeatUntilViewController.swift in Sources */,
 				843614832129A44C00760765 /* GoingPeopleTableViewCell.swift in Sources */,
 				8436147B21291F9100760765 /* MapTableViewCell.swift in Sources */,
+				84202564212C59AC0050B5C8 /* AddHostsViewController.swift in Sources */,
 				8436147F21299E4C00760765 /* EventDescriptionCell.swift in Sources */,
 				843614872129BFE300760765 /* MoreItemCell.swift in Sources */,
 				843614972129F4C000760765 /* TPKeyboardAvoidingSwift.swift in Sources */,

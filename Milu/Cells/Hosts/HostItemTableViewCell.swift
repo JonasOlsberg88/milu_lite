@@ -1,19 +1,22 @@
 //
-//  HostCell.swift
+//  HostItemTableViewCell.swift
 //  Milu
 //
-//  Created by Admin on 8/20/18.
+//  Created by Admin on 8/21/18.
 //  Copyright © 2018 Admintest. All rights reserved.
 //
 
 import UIKit
+import APAvatarImageView
 
-class HostCell: UITableViewCell {
+class HostItemTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var hostButton: UIButton!
+    @IBOutlet weak var button: UIButton!
+    @IBOutlet weak var avatarImageView: APAvatarImageView!
+    @IBOutlet weak var checkImageView: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        avatarImageView.borderWidth = 0
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
