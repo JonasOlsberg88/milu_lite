@@ -10,9 +10,9 @@ import UIKit
 
 class AddressCell: UITableViewCell {
 
+    @IBOutlet weak var addressField: UITextField!
     override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+        super.awakeFromNib()        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

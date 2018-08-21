@@ -8,7 +8,8 @@
 
 import UIKit
 
-class EventEditViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class EventEditViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,EditCoverPhotoViewControllerDelegate,RepeatViewControllerDelegate {
+    
 
     @IBOutlet weak var tableView: TPKeyboardAvoidingTableView!
     @IBOutlet weak var headerView: UIVisualEffectView!
@@ -22,7 +23,9 @@ class EventEditViewController: UIViewController,UITableViewDelegate,UITableViewD
     let dateFormatter = DateFormatter()
     let durationFormatter = DateFormatter()
     var previousOffset:CGFloat = 0
-   
+    var coverPhoto = UIImage()
+    var repeatIndex = 0
+    let repeatItems = ["none","daily","weekly","monthly","yearly"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,7 +56,7 @@ class EventEditViewController: UIViewController,UITableViewDelegate,UITableViewD
         var components = calendar.dateComponents([.hour,.minute], from: Date())
         components.hour = 0
         components.minute = 0
-        
+        coverPhoto = UIImage(named: "dog")!
         
         durationFormatter.dateFormat = "H'h' m'm'"
         duration = durationFormatter.string(from: calendar.date(from: components)!)
@@ -74,7 +77,7 @@ class EventEditViewController: UIViewController,UITableViewDelegate,UITableViewD
         case 0:
             return 36
         case 1:
-            return 186
+            return self.view.bounds.width * 0.8
         case 2:
             return 49
         case 3,5:
@@ -141,26 +144,37 @@ class EventEditViewController: UIViewController,UITableViewDelegate,UITableViewD
         case 0:
             
             let addPhotoCell = tableView.dequeueReusableCell(withIdentifier: "AddHeaderPhotoCell", for: indexPath as IndexPath) as! AddHeaderPhotoCell
+            addPhotoCell.addButton.addTarget(self, action: #selector(didTapOnAdd(button:)), for: .touchUpInside)
             cell = addPhotoCell
             break
         case 1:
             let photoCell = tableView.dequeueReusableCell(withIdentifier: "EventPhotoCell", for: indexPath as IndexPath) as! EventPhotoCell
+            photoCell.coverPhotoImageView.image = coverPhoto
             cell = photoCell
             break
         case 2:
             let titleCell = tableView.dequeueReusableCell(withIdentifier: "TitleCell", for: indexPath as IndexPath) as! TitleCell
+            titleCell.titleField.attributedPlaceholder = NSAttributedString(string: "title",
+                                                                 attributes: [NSAttributedStringKey.foregroundColor: UIColor.lightGray])
             cell = titleCell
             break
         case 3:
             let addressCell = tableView.dequeueReusableCell(withIdentifier: "AddressCell", for: indexPath as IndexPath) as! AddressCell
+            addressCell.addressField.attributedPlaceholder = NSAttributedString(string: "address",
+                                                                                attributes: [NSAttributedStringKey.foregroundColor: UIColor.lightGray])
             cell = addressCell
             break
         case 4:
             let websiteCell = tableView.dequeueReusableCell(withIdentifier: "websiteCell", for: indexPath as IndexPath) as! TitleCell
+            websiteCell.titleField.attributedPlaceholder = NSAttributedString(string: "website url",
+                                                                                         attributes: [NSAttributedStringKey.foregroundColor: UIColor.lightGray])
             cell = websiteCell
             break
         case 5:
             let ticketCell = tableView.dequeueReusableCell(withIdentifier: "TicketCell", for: indexPath as IndexPath) as! AddressCell
+            
+            ticketCell.addressField.attributedPlaceholder = NSAttributedString(string: "ticket url",
+                                                                              attributes: [NSAttributedStringKey.foregroundColor: UIColor.lightGray])
             cell = ticketCell
             break
         case 6:
@@ -196,6 +210,8 @@ class EventEditViewController: UIViewController,UITableViewDelegate,UITableViewD
             break
         case 9:
             let repeatCell = tableView.dequeueReusableCell(withIdentifier: "RepeatCell", for: indexPath as IndexPath) as! RepeatCell
+            repeatCell.repeatButton.addTarget(self, action: #selector(didTapOnRepeat(button:)), for: .touchUpInside)
+            repeatCell.weeklyButton.setTitle(repeatItems[repeatIndex], for: .normal)
             cell = repeatCell
             break
         case 10:
@@ -280,6 +296,22 @@ class EventEditViewController: UIViewController,UITableViewDelegate,UITableViewD
         
     }
     
+    @objc func didTapOnAdd(button: UIButton){
+        
+        let editCoverPhotoViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "EditCoverPhotoViewController") as? EditCoverPhotoViewController
+        editCoverPhotoViewController?.delegate = self
+        present(editCoverPhotoViewController!, animated: false, completion: nil)
+        
+    }
+    
+    @objc func didTapOnRepeat(button: UIButton){
+        
+        let repeatViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "RepeatViewController") as? RepeatViewController
+        repeatViewController?.delegate = self
+        self.navigationController?.pushViewController(repeatViewController!, animated: true)
+        
+    }
+    
     @objc func datePickerChanged(date_picker:UIDatePicker){
         
         startDate = dateFormatter.string(from: date_picker.date)
@@ -311,6 +343,22 @@ class EventEditViewController: UIViewController,UITableViewDelegate,UITableViewD
         
         duration = "\(sender.hour)h \(sender.minutes)m"
         self.tableView.reloadData()
+    }
+    
+    func circleCropDidCancel() {
+        dismiss(animated: false, completion: nil)
+    }
+    
+    func circleCropDidCropImage(_ image: UIImage) {
+        coverPhoto = image
+        tableView.reloadData()
+        dismiss(animated: false, completion: nil)
+    }
+    
+    func backAction(index: Int) {
+        repeatIndex = index
+        self.tableView.reloadData()
+        
     }
     
     

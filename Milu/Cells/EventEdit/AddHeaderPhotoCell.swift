@@ -10,6 +10,7 @@ import UIKit
 
 class AddHeaderPhotoCell: UITableViewCell {
 
+    @IBOutlet weak var addButton: UIButton!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

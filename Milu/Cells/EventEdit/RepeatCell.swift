@@ -10,6 +10,8 @@ import UIKit
 
 class RepeatCell: UITableViewCell {
 
+    @IBOutlet weak var weeklyButton: UIButton!
+    @IBOutlet weak var repeatButton: UIButton!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

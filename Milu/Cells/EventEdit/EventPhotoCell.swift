@@ -10,6 +10,7 @@ import UIKit
 
 class EventPhotoCell: UITableViewCell {
 
+    @IBOutlet weak var coverPhotoImageView: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

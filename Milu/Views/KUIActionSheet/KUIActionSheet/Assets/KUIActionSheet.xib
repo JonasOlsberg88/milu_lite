@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="WorkSans-Regular.ttf">
+            <string>WorkSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="KUIActionSheet" customModule="KUIActionSheet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mwC-rC-YyC">
+                    <rect key="frame" x="10" y="601" width="355" height="57"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="8AM-Jp-GcG">
+                        <rect key="frame" x="0.0" y="0.0" width="355" height="57"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <blurEffect style="dark"/>
+                </visualEffectView>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7VM-7h-raC">
+                    <rect key="frame" x="10" y="601" width="355" height="57"/>
+                    <color key="backgroundColor" red="0.070588235294117646" green="0.074509803921568626" blue="0.078431372549019607" alpha="0.0" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="57" id="qWT-5m-BVd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="WorkSans-Regular" family="Work Sans" pointSize="18"/>
+                    <state key="normal" title="CANCEL">
+                        <color key="titleColor" red="0.0" green="0.75294117647058822" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="onClose:" destination="iN0-l3-epB" eventType="touchUpInside" id="sfo-eH-a8V"/>
+                    </connections>
+                </button>
+                <view hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gp0-gE-pqU">
+                    <rect key="frame" x="10" y="475" width="355" height="51"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nj9-ty-kzI">
+                    <rect key="frame" x="10" y="509" width="355" height="75"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="BoT-8C-Nqx">
+                        <rect key="frame" x="0.0" y="0.0" width="355" height="75"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <blurEffect style="dark"/>
+                </visualEffectView>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="7VM-7h-raC" secondAttribute="bottom" constant="9" id="AtH-4o-H6Z"/>
+                <constraint firstItem="Gp0-gE-pqU" firstAttribute="centerX" secondItem="7VM-7h-raC" secondAttribute="centerX" id="B8t-WB-3Qu"/>
+                <constraint firstItem="mwC-rC-YyC" firstAttribute="width" secondItem="7VM-7h-raC" secondAttribute="width" id="KN3-Rf-xla"/>
+                <constraint firstItem="mwC-rC-YyC" firstAttribute="centerX" secondItem="7VM-7h-raC" secondAttribute="centerX" id="Puv-n4-jB5"/>
+                <constraint firstItem="Gp0-gE-pqU" firstAttribute="width" secondItem="7VM-7h-raC" secondAttribute="width" id="UUU-hE-7Be"/>
+                <constraint firstItem="mwC-rC-YyC" firstAttribute="height" secondItem="7VM-7h-raC" secondAttribute="height" id="flf-fr-Sr2"/>
+                <constraint firstItem="7VM-7h-raC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="h2y-sK-xsH"/>
+                <constraint firstItem="mwC-rC-YyC" firstAttribute="centerY" secondItem="7VM-7h-raC" secondAttribute="centerY" id="iYN-lr-9gk"/>
+                <constraint firstItem="7VM-7h-raC" firstAttribute="top" secondItem="Gp0-gE-pqU" secondAttribute="bottom" constant="8" id="pbv-W8-9Eq"/>
+                <constraint firstAttribute="trailing" secondItem="7VM-7h-raC" secondAttribute="trailing" constant="10" id="qBU-SW-f8G"/>
+                <constraint firstItem="7VM-7h-raC" firstAttribute="top" secondItem="nj9-ty-kzI" secondAttribute="bottom" constant="8" id="r1Z-Zt-Whc"/>
+                <constraint firstItem="nj9-ty-kzI" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="tz9-O8-sKm"/>
+                <constraint firstItem="nj9-ty-kzI" firstAttribute="width" secondItem="7VM-7h-raC" secondAttribute="width" id="wKS-jW-17x"/>
+            </constraints>
+            <connections>
+                <outlet property="actionsheetview" destination="nj9-ty-kzI" id="lht-IV-Y5a"/>
+                <outlet property="blurView" destination="mwC-rC-YyC" id="iXz-wm-iI1"/>
+                <outlet property="cancelButton" destination="7VM-7h-raC" id="x7h-rf-562"/>
+                <outlet property="cancelButtonBottom" destination="AtH-4o-H6Z" id="710-ks-6c9"/>
+                <outlet property="containerView" destination="BoT-8C-Nqx" id="ghB-bb-Ll0"/>
+            </connections>
+            <point key="canvasLocation" x="25.5" y="51.5"/>
+        </view>
+    </objects>
+</document>

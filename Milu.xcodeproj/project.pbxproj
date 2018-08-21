@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8420255C212C44900050B5C8 /* RepeatWeekDaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8420255B212C44900050B5C8 /* RepeatWeekDaysViewController.swift */; };
+		8420255F212C48EC0050B5C8 /* RepeatMonthDaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8420255E212C48EC0050B5C8 /* RepeatMonthDaysViewController.swift */; };
+		84202561212C53C30050B5C8 /* CustomPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84202560212C53C30050B5C8 /* CustomPicker.swift */; };
 		8436145D212861F100760765 /* BaseTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436145C212861F100760765 /* BaseTabbarViewController.swift */; };
 		8436145F2128647E00760765 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436145E2128647E00760765 /* SigninViewController.swift */; };
 		843614632128A09B00760765 /* EventHostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843614622128A09B00760765 /* EventHostHeaderTableViewCell.swift */; };
@@ -57,6 +60,42 @@
 		84D9FCC1212B11FF0030F8AD /* MaybeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCC0212B11FF0030F8AD /* MaybeViewController.swift */; };
 		84D9FCC3212B120B0030F8AD /* NopeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCC2212B120B0030F8AD /* NopeViewController.swift */; };
 		84D9FCC6212B17DD0030F8AD /* GuestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCC5212B17DD0030F8AD /* GuestTableViewCell.swift */; };
+		84D9FCC9212B26FC0030F8AD /* EditCoverPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCC8212B26FC0030F8AD /* EditCoverPhotoViewController.swift */; };
+		84D9FCCD212B27D20030F8AD /* KARectCropCutterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCCB212B27D20030F8AD /* KARectCropCutterView.swift */; };
+		84D9FCCE212B27D20030F8AD /* KARectCropScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCCC212B27D20030F8AD /* KARectCropScrollView.swift */; };
+		84D9FCDA212B69810030F8AD /* KUIActionSheet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D9FCD7212B68440030F8AD /* KUIActionSheet.framework */; };
+		84D9FCDB212B69810030F8AD /* KUIActionSheet.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84D9FCD7212B68440030F8AD /* KUIActionSheet.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84D9FCE3212B7FF80030F8AD /* RepeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCE2212B7FF80030F8AD /* RepeatViewController.swift */; };
+		84D9FCE6212B9BE50030F8AD /* RepeatDayIntervalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCE5212B9BE50030F8AD /* RepeatDayIntervalViewController.swift */; };
+		84D9FCE9212B9E770030F8AD /* RepeatIntervalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCE8212B9E770030F8AD /* RepeatIntervalTableViewCell.swift */; };
+		84D9FCEB212BA58B0030F8AD /* RepeatWeekIntervalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCEA212BA58B0030F8AD /* RepeatWeekIntervalViewController.swift */; };
+		84D9FCED212BA6F70030F8AD /* RepeatMonthIntervalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCEC212BA6F70030F8AD /* RepeatMonthIntervalViewController.swift */; };
+		84D9FCEF212BA7EC0030F8AD /* RepeatYearIntervalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCEE212BA7EC0030F8AD /* RepeatYearIntervalViewController.swift */; };
+		84D9FCF1212BABC30030F8AD /* RepeatUntilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCF0212BABC30030F8AD /* RepeatUntilViewController.swift */; };
+		84D9FD02212BB0E40030F8AD /* MJCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCF4212BB0E40030F8AD /* MJCalendarView.swift */; };
+		84D9FD03212BB0E40030F8AD /* MJComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCF5212BB0E40030F8AD /* MJComponentView.swift */; };
+		84D9FD04212BB0E40030F8AD /* MJConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCF6212BB0E40030F8AD /* MJConfiguration.swift */; };
+		84D9FD05212BB0E40030F8AD /* MJDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCF7212BB0E40030F8AD /* MJDayView.swift */; };
+		84D9FD06212BB0E40030F8AD /* MJPeriodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCF8212BB0E40030F8AD /* MJPeriodView.swift */; };
+		84D9FD07212BB0E40030F8AD /* MJWeekLabelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCF9212BB0E40030F8AD /* MJWeekLabelsView.swift */; };
+		84D9FD08212BB0E40030F8AD /* MJWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCFA212BB0E40030F8AD /* MJWeekView.swift */; };
+		84D9FD09212BB0E40030F8AD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84D9FCFC212BB0E40030F8AD /* Info.plist */; };
+		84D9FD0A212BB0E40030F8AD /* MJCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCFD212BB0E40030F8AD /* MJCalendar-dummy.m */; };
+		84D9FD0B212BB0E40030F8AD /* MJCalendar.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 84D9FD01212BB0E40030F8AD /* MJCalendar.xcconfig */; };
+		84D9FD18212BB1710030F8AD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84D9FD0D212BB1710030F8AD /* Info.plist */; };
+		84D9FD19212BB1710030F8AD /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 84D9FD0E212BB1710030F8AD /* LICENSE */; };
+		84D9FD1A212BB1710030F8AD /* NSDate+Escort.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FD11212BB1710030F8AD /* NSDate+Escort.m */; };
+		84D9FD1B212BB1710030F8AD /* NSDate-Escort-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FD12212BB1710030F8AD /* NSDate-Escort-dummy.m */; };
+		84D9FD1C212BB1710030F8AD /* NSDate-Escort.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 84D9FD16212BB1710030F8AD /* NSDate-Escort.xcconfig */; };
+		84D9FD1D212BB1710030F8AD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 84D9FD17212BB1710030F8AD /* README.md */; };
+		84D9FD2B212BB55B0030F8AD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84D9FD20212BB55B0030F8AD /* Info.plist */; };
+		84D9FD2C212BB55B0030F8AD /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 84D9FD21212BB55B0030F8AD /* LICENSE.md */; };
+		84D9FD2D212BB55B0030F8AD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 84D9FD22212BB55B0030F8AD /* README.md */; };
+		84D9FD2E212BB55B0030F8AD /* UIView+JMFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FD25212BB55B0030F8AD /* UIView+JMFrame.m */; };
+		84D9FD2F212BB55B0030F8AD /* UIView+JMFrame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FD26212BB55B0030F8AD /* UIView+JMFrame-dummy.m */; };
+		84D9FD30212BB55B0030F8AD /* UIView+JMFrame.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 84D9FD2A212BB55B0030F8AD /* UIView+JMFrame.xcconfig */; };
+		84D9FD32212BB59D0030F8AD /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FD31212BB59D0030F8AD /* PaddingLabel.swift */; };
+		84D9FD34212BB9A60030F8AD /* SwiftHEXColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FD33212BB9A60030F8AD /* SwiftHEXColors.swift */; };
 		9EE7C9D428224A4B315AF72E /* Pods_Milu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDA7E45B9BF4800CD271386 /* Pods_Milu.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,9 +114,47 @@
 			remoteGlobalIDString = 8497F1C42123DD9600C7AC7F;
 			remoteInfo = Milu;
 		};
+		84D9FCD6212B68440030F8AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D9FCD1212B68440030F8AD /* KUIActionSheet.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C3598CF51D2F38AC00FA85BA;
+			remoteInfo = KUIActionSheet;
+		};
+		84D9FCD8212B68440030F8AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D9FCD1212B68440030F8AD /* KUIActionSheet.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C3598CFF1D2F38AC00FA85BA;
+			remoteInfo = KUIActionSheetTests;
+		};
+		84D9FCDC212B69810030F8AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D9FCD1212B68440030F8AD /* KUIActionSheet.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C3598CF41D2F38AC00FA85BA;
+			remoteInfo = KUIActionSheet;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		84D9FCDE212B69810030F8AD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84D9FCDB212B69810030F8AD /* KUIActionSheet.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		8420255B212C44900050B5C8 /* RepeatWeekDaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatWeekDaysViewController.swift; sourceTree = "<group>"; };
+		8420255E212C48EC0050B5C8 /* RepeatMonthDaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatMonthDaysViewController.swift; sourceTree = "<group>"; };
+		84202560212C53C30050B5C8 /* CustomPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPicker.swift; sourceTree = "<group>"; };
 		8436145C212861F100760765 /* BaseTabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabbarViewController.swift; sourceTree = "<group>"; };
 		8436145E2128647E00760765 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
 		843614622128A09B00760765 /* EventHostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventHostHeaderTableViewCell.swift; sourceTree = "<group>"; };
@@ -134,6 +211,53 @@
 		84D9FCC0212B11FF0030F8AD /* MaybeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaybeViewController.swift; sourceTree = "<group>"; };
 		84D9FCC2212B120B0030F8AD /* NopeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NopeViewController.swift; sourceTree = "<group>"; };
 		84D9FCC5212B17DD0030F8AD /* GuestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestTableViewCell.swift; sourceTree = "<group>"; };
+		84D9FCC8212B26FC0030F8AD /* EditCoverPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCoverPhotoViewController.swift; sourceTree = "<group>"; };
+		84D9FCCB212B27D20030F8AD /* KARectCropCutterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KARectCropCutterView.swift; sourceTree = "<group>"; };
+		84D9FCCC212B27D20030F8AD /* KARectCropScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KARectCropScrollView.swift; sourceTree = "<group>"; };
+		84D9FCD1212B68440030F8AD /* KUIActionSheet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KUIActionSheet.xcodeproj; path = Milu/Views/KUIActionSheet/KUIActionSheet.xcodeproj; sourceTree = "<group>"; };
+		84D9FCE2212B7FF80030F8AD /* RepeatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatViewController.swift; sourceTree = "<group>"; };
+		84D9FCE5212B9BE50030F8AD /* RepeatDayIntervalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatDayIntervalViewController.swift; sourceTree = "<group>"; };
+		84D9FCE8212B9E770030F8AD /* RepeatIntervalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatIntervalTableViewCell.swift; sourceTree = "<group>"; };
+		84D9FCEA212BA58B0030F8AD /* RepeatWeekIntervalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatWeekIntervalViewController.swift; sourceTree = "<group>"; };
+		84D9FCEC212BA6F70030F8AD /* RepeatMonthIntervalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatMonthIntervalViewController.swift; sourceTree = "<group>"; };
+		84D9FCEE212BA7EC0030F8AD /* RepeatYearIntervalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatYearIntervalViewController.swift; sourceTree = "<group>"; };
+		84D9FCF0212BABC30030F8AD /* RepeatUntilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatUntilViewController.swift; sourceTree = "<group>"; };
+		84D9FCF4212BB0E40030F8AD /* MJCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJCalendarView.swift; sourceTree = "<group>"; };
+		84D9FCF5212BB0E40030F8AD /* MJComponentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJComponentView.swift; sourceTree = "<group>"; };
+		84D9FCF6212BB0E40030F8AD /* MJConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJConfiguration.swift; sourceTree = "<group>"; };
+		84D9FCF7212BB0E40030F8AD /* MJDayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJDayView.swift; sourceTree = "<group>"; };
+		84D9FCF8212BB0E40030F8AD /* MJPeriodView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJPeriodView.swift; sourceTree = "<group>"; };
+		84D9FCF9212BB0E40030F8AD /* MJWeekLabelsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJWeekLabelsView.swift; sourceTree = "<group>"; };
+		84D9FCFA212BB0E40030F8AD /* MJWeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJWeekView.swift; sourceTree = "<group>"; };
+		84D9FCFC212BB0E40030F8AD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D9FCFD212BB0E40030F8AD /* MJCalendar-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MJCalendar-dummy.m"; sourceTree = "<group>"; };
+		84D9FCFE212BB0E40030F8AD /* MJCalendar-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MJCalendar-prefix.pch"; sourceTree = "<group>"; };
+		84D9FCFF212BB0E40030F8AD /* MJCalendar-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MJCalendar-umbrella.h"; sourceTree = "<group>"; };
+		84D9FD00212BB0E40030F8AD /* MJCalendar.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = MJCalendar.modulemap; sourceTree = "<group>"; };
+		84D9FD01212BB0E40030F8AD /* MJCalendar.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = MJCalendar.xcconfig; sourceTree = "<group>"; };
+		84D9FD0D212BB1710030F8AD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D9FD0E212BB1710030F8AD /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		84D9FD10212BB1710030F8AD /* NSDate+Escort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Escort.h"; sourceTree = "<group>"; };
+		84D9FD11212BB1710030F8AD /* NSDate+Escort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Escort.m"; sourceTree = "<group>"; };
+		84D9FD12212BB1710030F8AD /* NSDate-Escort-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-Escort-dummy.m"; sourceTree = "<group>"; };
+		84D9FD13212BB1710030F8AD /* NSDate-Escort-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate-Escort-prefix.pch"; sourceTree = "<group>"; };
+		84D9FD14212BB1710030F8AD /* NSDate-Escort-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate-Escort-umbrella.h"; sourceTree = "<group>"; };
+		84D9FD15212BB1710030F8AD /* NSDate-Escort.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "NSDate-Escort.modulemap"; sourceTree = "<group>"; };
+		84D9FD16212BB1710030F8AD /* NSDate-Escort.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "NSDate-Escort.xcconfig"; sourceTree = "<group>"; };
+		84D9FD17212BB1710030F8AD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		84D9FD1E212BB27D0030F8AD /* Milu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Milu-Bridging-Header.h"; sourceTree = "<group>"; };
+		84D9FD20212BB55B0030F8AD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D9FD21212BB55B0030F8AD /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		84D9FD22212BB55B0030F8AD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		84D9FD24212BB55B0030F8AD /* UIView+JMFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JMFrame.h"; sourceTree = "<group>"; };
+		84D9FD25212BB55B0030F8AD /* UIView+JMFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JMFrame.m"; sourceTree = "<group>"; };
+		84D9FD26212BB55B0030F8AD /* UIView+JMFrame-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JMFrame-dummy.m"; sourceTree = "<group>"; };
+		84D9FD27212BB55B0030F8AD /* UIView+JMFrame-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JMFrame-prefix.pch"; sourceTree = "<group>"; };
+		84D9FD28212BB55B0030F8AD /* UIView+JMFrame-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JMFrame-umbrella.h"; sourceTree = "<group>"; };
+		84D9FD29212BB55B0030F8AD /* UIView+JMFrame.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "UIView+JMFrame.modulemap"; sourceTree = "<group>"; };
+		84D9FD2A212BB55B0030F8AD /* UIView+JMFrame.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "UIView+JMFrame.xcconfig"; sourceTree = "<group>"; };
+		84D9FD31212BB59D0030F8AD /* PaddingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		84D9FD33212BB9A60030F8AD /* SwiftHEXColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftHEXColors.swift; sourceTree = "<group>"; };
 		8BDA7E45B9BF4800CD271386 /* Pods_Milu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Milu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E59AF38BAAA338CA2BE0DA /* Pods-Milu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Milu/Pods-Milu.release.xcconfig"; sourceTree = "<group>"; };
 		B5F64C43BEC82119A775A76D /* Pods-Milu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Milu/Pods-Milu.debug.xcconfig"; sourceTree = "<group>"; };
@@ -144,6 +268,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D9FCDA212B69810030F8AD /* KUIActionSheet.framework in Frameworks */,
 				9EE7C9D428224A4B315AF72E /* Pods_Milu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +318,7 @@
 		843614602128A03100760765 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				84D9FCE7212B9E4A0030F8AD /* Repeats */,
 				84D9FCC4212B17AA0030F8AD /* GuestsList */,
 				8436148B2129E12500760765 /* EventEdit */,
 				843614612128A03D00760765 /* EventHost */,
@@ -285,7 +411,13 @@
 		843614A0212A43D400760765 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				84D9FD31212BB59D0030F8AD /* PaddingLabel.swift */,
+				84D9FD1F212BB55B0030F8AD /* UIView+JMFrame */,
+				84D9FD0C212BB1710030F8AD /* NSDate-Escort */,
+				84D9FCF2212BB0E40030F8AD /* MJCalendar */,
+				84D9FCCA212B27B70030F8AD /* EditCoverPhoto */,
 				843614A1212A43E000760765 /* TimePickerView.swift */,
+				84202560212C53C30050B5C8 /* CustomPicker.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -293,6 +425,8 @@
 		8497F1BC2123DD9600C7AC7F = {
 			isa = PBXGroup;
 			children = (
+				84D9FD1E212BB27D0030F8AD /* Milu-Bridging-Header.h */,
+				84D9FCD1212B68440030F8AD /* KUIActionSheet.xcodeproj */,
 				8497F1C72123DD9600C7AC7F /* Milu */,
 				8497F1DC2123DDA000C7AC7F /* MiluTests */,
 				8497F1E72123DDA000C7AC7F /* MiluUITests */,
@@ -375,6 +509,7 @@
 			isa = PBXGroup;
 			children = (
 				8436146B2128FA0700760765 /* BMUIViewController.swift */,
+				84D9FD33212BB9A60030F8AD /* SwiftHEXColors.swift */,
 				8497F1C82123DD9600C7AC7F /* AppDelegate.swift */,
 			);
 			path = App;
@@ -383,6 +518,8 @@
 		8497F1FA2123DDFA00C7AC7F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				84D9FCE1212B7FE00030F8AD /* Repeat */,
+				84D9FCC7212B26DC0030F8AD /* EditCoverPhoto */,
 				84D9FCBB212AFF410030F8AD /* GuestList */,
 				843614882129D69800760765 /* EditEvent */,
 				843614642128DFFD00760765 /* EventHost */,
@@ -430,6 +567,141 @@
 			path = GuestsList;
 			sourceTree = "<group>";
 		};
+		84D9FCC7212B26DC0030F8AD /* EditCoverPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				84D9FCC8212B26FC0030F8AD /* EditCoverPhotoViewController.swift */,
+			);
+			path = EditCoverPhoto;
+			sourceTree = "<group>";
+		};
+		84D9FCCA212B27B70030F8AD /* EditCoverPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				84D9FCCB212B27D20030F8AD /* KARectCropCutterView.swift */,
+				84D9FCCC212B27D20030F8AD /* KARectCropScrollView.swift */,
+			);
+			path = EditCoverPhoto;
+			sourceTree = "<group>";
+		};
+		84D9FCD2212B68440030F8AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D9FCD7212B68440030F8AD /* KUIActionSheet.framework */,
+				84D9FCD9212B68440030F8AD /* KUIActionSheetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D9FCE1212B7FE00030F8AD /* Repeat */ = {
+			isa = PBXGroup;
+			children = (
+				84D9FCE2212B7FF80030F8AD /* RepeatViewController.swift */,
+				84D9FCE5212B9BE50030F8AD /* RepeatDayIntervalViewController.swift */,
+				84D9FCEA212BA58B0030F8AD /* RepeatWeekIntervalViewController.swift */,
+				84D9FCEC212BA6F70030F8AD /* RepeatMonthIntervalViewController.swift */,
+				84D9FCEE212BA7EC0030F8AD /* RepeatYearIntervalViewController.swift */,
+				84D9FCF0212BABC30030F8AD /* RepeatUntilViewController.swift */,
+				8420255B212C44900050B5C8 /* RepeatWeekDaysViewController.swift */,
+				8420255E212C48EC0050B5C8 /* RepeatMonthDaysViewController.swift */,
+			);
+			path = Repeat;
+			sourceTree = "<group>";
+		};
+		84D9FCE7212B9E4A0030F8AD /* Repeats */ = {
+			isa = PBXGroup;
+			children = (
+				84D9FCE8212B9E770030F8AD /* RepeatIntervalTableViewCell.swift */,
+			);
+			path = Repeats;
+			sourceTree = "<group>";
+		};
+		84D9FCF2212BB0E40030F8AD /* MJCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				84D9FCF3212BB0E40030F8AD /* Classes */,
+				84D9FCFB212BB0E40030F8AD /* Support */,
+			);
+			path = MJCalendar;
+			sourceTree = "<group>";
+		};
+		84D9FCF3212BB0E40030F8AD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				84D9FCF4212BB0E40030F8AD /* MJCalendarView.swift */,
+				84D9FCF5212BB0E40030F8AD /* MJComponentView.swift */,
+				84D9FCF6212BB0E40030F8AD /* MJConfiguration.swift */,
+				84D9FCF7212BB0E40030F8AD /* MJDayView.swift */,
+				84D9FCF8212BB0E40030F8AD /* MJPeriodView.swift */,
+				84D9FCF9212BB0E40030F8AD /* MJWeekLabelsView.swift */,
+				84D9FCFA212BB0E40030F8AD /* MJWeekView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		84D9FCFB212BB0E40030F8AD /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				84D9FCFC212BB0E40030F8AD /* Info.plist */,
+				84D9FCFD212BB0E40030F8AD /* MJCalendar-dummy.m */,
+				84D9FCFE212BB0E40030F8AD /* MJCalendar-prefix.pch */,
+				84D9FCFF212BB0E40030F8AD /* MJCalendar-umbrella.h */,
+				84D9FD00212BB0E40030F8AD /* MJCalendar.modulemap */,
+				84D9FD01212BB0E40030F8AD /* MJCalendar.xcconfig */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		84D9FD0C212BB1710030F8AD /* NSDate-Escort */ = {
+			isa = PBXGroup;
+			children = (
+				84D9FD0D212BB1710030F8AD /* Info.plist */,
+				84D9FD0E212BB1710030F8AD /* LICENSE */,
+				84D9FD0F212BB1710030F8AD /* NSDate-Escort */,
+				84D9FD12212BB1710030F8AD /* NSDate-Escort-dummy.m */,
+				84D9FD13212BB1710030F8AD /* NSDate-Escort-prefix.pch */,
+				84D9FD14212BB1710030F8AD /* NSDate-Escort-umbrella.h */,
+				84D9FD15212BB1710030F8AD /* NSDate-Escort.modulemap */,
+				84D9FD16212BB1710030F8AD /* NSDate-Escort.xcconfig */,
+				84D9FD17212BB1710030F8AD /* README.md */,
+			);
+			path = "NSDate-Escort";
+			sourceTree = "<group>";
+		};
+		84D9FD0F212BB1710030F8AD /* NSDate-Escort */ = {
+			isa = PBXGroup;
+			children = (
+				84D9FD10212BB1710030F8AD /* NSDate+Escort.h */,
+				84D9FD11212BB1710030F8AD /* NSDate+Escort.m */,
+			);
+			path = "NSDate-Escort";
+			sourceTree = "<group>";
+		};
+		84D9FD1F212BB55B0030F8AD /* UIView+JMFrame */ = {
+			isa = PBXGroup;
+			children = (
+				84D9FD20212BB55B0030F8AD /* Info.plist */,
+				84D9FD21212BB55B0030F8AD /* LICENSE.md */,
+				84D9FD22212BB55B0030F8AD /* README.md */,
+				84D9FD23212BB55B0030F8AD /* UIView+JMFrame */,
+				84D9FD26212BB55B0030F8AD /* UIView+JMFrame-dummy.m */,
+				84D9FD27212BB55B0030F8AD /* UIView+JMFrame-prefix.pch */,
+				84D9FD28212BB55B0030F8AD /* UIView+JMFrame-umbrella.h */,
+				84D9FD29212BB55B0030F8AD /* UIView+JMFrame.modulemap */,
+				84D9FD2A212BB55B0030F8AD /* UIView+JMFrame.xcconfig */,
+			);
+			path = "UIView+JMFrame";
+			sourceTree = "<group>";
+		};
+		84D9FD23212BB55B0030F8AD /* UIView+JMFrame */ = {
+			isa = PBXGroup;
+			children = (
+				84D9FD24212BB55B0030F8AD /* UIView+JMFrame.h */,
+				84D9FD25212BB55B0030F8AD /* UIView+JMFrame.m */,
+			);
+			path = "UIView+JMFrame";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -443,10 +715,12 @@
 				8497F1C32123DD9600C7AC7F /* Resources */,
 				DD09F68A02E4DBA05913F0C7 /* [CP] Embed Pods Frameworks */,
 				7372AFB0F9FCA25E9DE51BC6 /* [CP] Copy Pods Resources */,
+				84D9FCDE212B69810030F8AD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				84D9FCDD212B69810030F8AD /* PBXTargetDependency */,
 			);
 			name = Milu;
 			productName = Milu;
@@ -523,6 +797,12 @@
 			mainGroup = 8497F1BC2123DD9600C7AC7F;
 			productRefGroup = 8497F1C62123DD9600C7AC7F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 84D9FCD2212B68440030F8AD /* Products */;
+					ProjectRef = 84D9FCD1212B68440030F8AD /* KUIActionSheet.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8497F1C42123DD9600C7AC7F /* Milu */,
@@ -532,6 +812,23 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		84D9FCD7212B68440030F8AD /* KUIActionSheet.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = KUIActionSheet.framework;
+			remoteRef = 84D9FCD6212B68440030F8AD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84D9FCD9212B68440030F8AD /* KUIActionSheetTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KUIActionSheetTests.xctest;
+			remoteRef = 84D9FCD8212B68440030F8AD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		8497F1C32123DD9600C7AC7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -539,10 +836,20 @@
 			files = (
 				8436146F2129037000760765 /* Montserrat-Bold.otf in Resources */,
 				843614702129037000760765 /* Montserrat-Light.otf in Resources */,
+				84D9FD18212BB1710030F8AD /* Info.plist in Resources */,
 				843614712129037000760765 /* Montserrat-Regular.otf in Resources */,
+				84D9FD19212BB1710030F8AD /* LICENSE in Resources */,
+				84D9FD0B212BB0E40030F8AD /* MJCalendar.xcconfig in Resources */,
+				84D9FD2C212BB55B0030F8AD /* LICENSE.md in Resources */,
+				84D9FD1D212BB1710030F8AD /* README.md in Resources */,
 				8497F1D32123DD9F00C7AC7F /* LaunchScreen.storyboard in Resources */,
+				84D9FD1C212BB1710030F8AD /* NSDate-Escort.xcconfig in Resources */,
 				8497F1D02123DD9F00C7AC7F /* Assets.xcassets in Resources */,
 				8497F1CE2123DD9600C7AC7F /* Main.storyboard in Resources */,
+				84D9FD30212BB55B0030F8AD /* UIView+JMFrame.xcconfig in Resources */,
+				84D9FD2D212BB55B0030F8AD /* README.md in Resources */,
+				84D9FD09212BB0E40030F8AD /* Info.plist in Resources */,
+				84D9FD2B212BB55B0030F8AD /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,46 +951,73 @@
 			files = (
 				8436149F212A32A900760765 /* DurationCell.swift in Sources */,
 				843614AE212AF50800760765 /* PrivateCell.swift in Sources */,
+				84D9FD05212BB0E40030F8AD /* MJDayView.swift in Sources */,
+				84D9FD34212BB9A60030F8AD /* SwiftHEXColors.swift in Sources */,
 				8436145F2128647E00760765 /* SigninViewController.swift in Sources */,
+				84D9FCC9212B26FC0030F8AD /* EditCoverPhotoViewController.swift in Sources */,
 				8436148A2129D6BF00760765 /* EventEditViewController.swift in Sources */,
 				84361473212904C000760765 /* EventTitleCell.swift in Sources */,
+				84D9FCCE212B27D20030F8AD /* KARectCropScrollView.swift in Sources */,
+				84D9FD07212BB0E40030F8AD /* MJWeekLabelsView.swift in Sources */,
 				843614632128A09B00760765 /* EventHostHeaderTableViewCell.swift in Sources */,
 				84D9FCC6212B17DD0030F8AD /* GuestTableViewCell.swift in Sources */,
 				8436146E2128FB6B00760765 /* EventTImeCell.swift in Sources */,
 				8436145D212861F100760765 /* BaseTabbarViewController.swift in Sources */,
+				84202561212C53C30050B5C8 /* CustomPicker.swift in Sources */,
+				84D9FCE6212B9BE50030F8AD /* RepeatDayIntervalViewController.swift in Sources */,
 				843614A7212A6B9700760765 /* HostCell.swift in Sources */,
 				843614692128E97100760765 /* HeaderReusableView.swift in Sources */,
+				84D9FCEB212BA58B0030F8AD /* RepeatWeekIntervalViewController.swift in Sources */,
 				8436148F2129E4A000760765 /* EventPhotoCell.swift in Sources */,
+				84D9FD06212BB0E40030F8AD /* MJPeriodView.swift in Sources */,
 				843614772129175300760765 /* EventCalendarCell.swift in Sources */,
 				84D9FCBF212B11E80030F8AD /* GoingViewController.swift in Sources */,
 				843614852129BEFA00760765 /* EventMoreTableViewCell.swift in Sources */,
 				843614AC212AF2D200760765 /* InviteCell.swift in Sources */,
+				84D9FD1B212BB1710030F8AD /* NSDate-Escort-dummy.m in Sources */,
+				84D9FD0A212BB0E40030F8AD /* MJCalendar-dummy.m in Sources */,
 				843614792129185E00760765 /* EventLocationCell.swift in Sources */,
 				843614812129A27800760765 /* GoingPeopleCollectionViewCell.swift in Sources */,
 				843614A2212A43E000760765 /* TimePickerView.swift in Sources */,
 				84361499212A0D1F00760765 /* AddressCell.swift in Sources */,
 				8436149B212A191900760765 /* AllDayCell.swift in Sources */,
+				84D9FD1A212BB1710030F8AD /* NSDate+Escort.m in Sources */,
 				843614912129F30A00760765 /* TitleCell.swift in Sources */,
 				8497F1CB2123DD9600C7AC7F /* SplashViewController.swift in Sources */,
 				8436149D212A1F5100760765 /* StartsCell.swift in Sources */,
 				843614AA212A71A200760765 /* DescriptionCell.swift in Sources */,
 				8497F1C92123DD9600C7AC7F /* AppDelegate.swift in Sources */,
+				84D9FD32212BB59D0030F8AD /* PaddingLabel.swift in Sources */,
+				84D9FCCD212B27D20030F8AD /* KARectCropCutterView.swift in Sources */,
+				84D9FCE3212B7FF80030F8AD /* RepeatViewController.swift in Sources */,
+				84D9FCE9212B9E770030F8AD /* RepeatIntervalTableViewCell.swift in Sources */,
+				8420255F212C48EC0050B5C8 /* RepeatMonthDaysViewController.swift in Sources */,
+				84D9FD2E212BB55B0030F8AD /* UIView+JMFrame.m in Sources */,
 				84D9FCC1212B11FF0030F8AD /* MaybeViewController.swift in Sources */,
+				84D9FCF1212BABC30030F8AD /* RepeatUntilViewController.swift in Sources */,
 				843614832129A44C00760765 /* GoingPeopleTableViewCell.swift in Sources */,
 				8436147B21291F9100760765 /* MapTableViewCell.swift in Sources */,
 				8436147F21299E4C00760765 /* EventDescriptionCell.swift in Sources */,
 				843614872129BFE300760765 /* MoreItemCell.swift in Sources */,
 				843614972129F4C000760765 /* TPKeyboardAvoidingSwift.swift in Sources */,
+				84D9FD02212BB0E40030F8AD /* MJCalendarView.swift in Sources */,
+				84D9FD2F212BB55B0030F8AD /* UIView+JMFrame-dummy.m in Sources */,
+				84D9FD03212BB0E40030F8AD /* MJComponentView.swift in Sources */,
 				843614B0212AF6B400760765 /* AllowCell.swift in Sources */,
 				843614B2212AF85600760765 /* SavebuttonCell.swift in Sources */,
 				8436147D212999F400760765 /* HostedbyCell.swift in Sources */,
+				84D9FD04212BB0E40030F8AD /* MJConfiguration.swift in Sources */,
 				843614662128E02500760765 /* EventHostViewController.swift in Sources */,
 				84D9FCBD212AFF700030F8AD /* GuestListContainerViewController.swift in Sources */,
 				8436147521290AE300760765 /* GoingTableViewCell.swift in Sources */,
 				8436146C2128FA0800760765 /* BMUIViewController.swift in Sources */,
 				84D9FCC3212B120B0030F8AD /* NopeViewController.swift in Sources */,
 				8436148D2129E15500760765 /* AddHeaderPhotoCell.swift in Sources */,
+				84D9FCEF212BA7EC0030F8AD /* RepeatYearIntervalViewController.swift in Sources */,
 				843614A5212A694300760765 /* RepeatCell.swift in Sources */,
+				84D9FD08212BB0E40030F8AD /* MJWeekView.swift in Sources */,
+				84D9FCED212BA6F70030F8AD /* RepeatMonthIntervalViewController.swift in Sources */,
+				8420255C212C44900050B5C8 /* RepeatWeekDaysViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -715,6 +1049,11 @@
 			isa = PBXTargetDependency;
 			target = 8497F1C42123DD9600C7AC7F /* Milu */;
 			targetProxy = 8497F1E52123DDA000C7AC7F /* PBXContainerItemProxy */;
+		};
+		84D9FCDD212B69810030F8AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KUIActionSheet;
+			targetProxy = 84D9FCDC212B69810030F8AD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -856,6 +1195,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B5F64C43BEC82119A775A76D /* Pods-Milu.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89L79W5YZ6;
@@ -866,6 +1206,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.clio.Milu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Milu-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -875,6 +1216,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A9E59AF38BAAA338CA2BE0DA /* Pods-Milu.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89L79W5YZ6;
@@ -885,6 +1227,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.clio.Milu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Milu-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
