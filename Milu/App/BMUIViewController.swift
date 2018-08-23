@@ -97,6 +97,9 @@ extension UIViewController {
         return String(data: data, encoding: .utf8)!
     }
 
+    func appDelegate() -> AppDelegate {
+        return (UIApplication.shared.delegate as? AppDelegate)!
+    }
 
 }
 

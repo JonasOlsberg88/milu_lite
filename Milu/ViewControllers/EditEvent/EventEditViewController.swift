@@ -8,7 +8,7 @@
 
 import UIKit
 
-class EventEditViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,EditCoverPhotoViewControllerDelegate,RepeatViewControllerDelegate {
+class EventEditViewController: BaseViewController,UITableViewDelegate,UITableViewDataSource,EditCoverPhotoViewControllerDelegate,RepeatViewControllerDelegate {
     
 
     @IBOutlet weak var tableView: TPKeyboardAvoidingTableView!

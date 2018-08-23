@@ -10,6 +10,7 @@
 	<string>$(PRODUCT_NAME) use camera</string>
 	<key>UIAppFonts</key>
 	<array>
+		<string>Montserrat-ExtraLight.otf</string>
 		<string>Montserrat-Regular.otf</string>
 		<string>Montserrat-Bold.otf</string>
 		<string>Montserrat-Light</string>

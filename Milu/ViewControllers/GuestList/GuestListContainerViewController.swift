@@ -19,6 +19,13 @@ class GuestListContainerViewController: UIViewController {
     @IBOutlet var nopeButton: UIButton!
     @IBOutlet weak var underlineView: UIView!
     @IBOutlet weak var containerView: UIView!
+    @IBOutlet weak var goingLabel: UILabel!
+    @IBOutlet weak var goingCountLabel: UILabel!
+    @IBOutlet weak var maybeLabel: UILabel!
+    @IBOutlet weak var maybeCountLabel: UILabel!
+    @IBOutlet weak var nopeLabel: UILabel!
+    @IBOutlet weak var nopeCountLabel: UILabel!
+    
     
     var goingViewController: GoingViewController?
     var maybeViewController: MaybeViewController?
@@ -27,11 +34,15 @@ class GuestListContainerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.initView()
+        self.initTab()
         goingViewController = (storyboard?.instantiateViewController(withIdentifier: "GoingViewController") as! GoingViewController)
         maybeViewController = (storyboard?.instantiateViewController(withIdentifier: "MaybeViewController") as! MaybeViewController)
         nopeViewController = (storyboard?.instantiateViewController(withIdentifier: "NopeViewController") as! NopeViewController)
         
+        self.goingView.alpha = 1      
         activeViewController = goingViewController
+        self.goingLabel.font = UIFont(name: "Montserrat-ExtraLight", size: 14)
+        self.goingCountLabel.font = UIFont(name: "Montserrat-ExtraLight", size: 12)
     }
 
     func initView(){
@@ -85,12 +96,23 @@ class GuestListContainerViewController: UIViewController {
         self.goingView.alpha = 0.7
         self.maybeView.alpha = 0.7
         self.nopeView.alpha = 0.7
+        
+        self.goingLabel.font = UIFont(name: "Montserrat-ExtraLight", size: 14)
+        self.maybeLabel.font = UIFont(name: "Montserrat-ExtraLight", size: 14)
+        self.nopeLabel.font = UIFont(name: "Montserrat-ExtraLight", size: 14)
+        
+        self.goingCountLabel.font = UIFont(name: "Montserrat-ExtraLight", size: 12)
+        self.maybeCountLabel.font = UIFont(name: "Montserrat-ExtraLight", size: 12)
+        self.nopeCountLabel.font = UIFont(name: "Montserrat-ExtraLight", size: 12)
+        
     }
     @IBAction func didTapOnGoing(_ sender: Any) {
         initTab()
         self.goingView.alpha = 1
         moveUnderline(index: 0)
         activeViewController = goingViewController
+        self.goingLabel.font = UIFont(name: "Montserrat-ExtraLight", size: 14)
+        self.goingCountLabel.font = UIFont(name: "Montserrat-ExtraLight", size: 12)
     }
     
     @IBAction func didTapOnMaybe(_ sender: Any) {
@@ -98,6 +120,8 @@ class GuestListContainerViewController: UIViewController {
         self.maybeView.alpha = 1
         moveUnderline(index: 1)
          activeViewController = maybeViewController
+        self.maybeLabel.font = UIFont(name: "Montserrat-ExtraLight", size: 14)
+        self.maybeCountLabel.font = UIFont(name: "Montserrat-ExtraLight", size: 12)
     }
     
     @IBAction func didTapOnNope(_ sender: Any) {
@@ -105,6 +129,8 @@ class GuestListContainerViewController: UIViewController {
         self.nopeView.alpha = 1
         moveUnderline(index: 2)
          activeViewController = nopeViewController
+        self.nopeLabel.font = UIFont(name: "Montserrat-ExtraLight", size: 14)
+        self.nopeCountLabel.font = UIFont(name: "Montserrat-ExtraLight", size: 12)
     }
     
     

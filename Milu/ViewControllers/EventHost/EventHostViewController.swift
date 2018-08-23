@@ -8,7 +8,7 @@
 
 import UIKit
 
-class EventHostViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class EventHostViewController: BaseViewController,UITableViewDelegate,UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var bgImageView: UIImageView!
@@ -62,6 +62,8 @@ class EventHostViewController: UIViewController,UITableViewDelegate,UITableViewD
         
         return 390
     }
+    
+    override var prefersStatusBarHidden: Bool { return isStatusBarHide }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 0
