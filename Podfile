@@ -18,4 +18,5 @@ target ‘Milu’ do
     pod 'SMPageControl'
     pod 'SevenSwitch', '~> 2.1'
     pod 'MultilineTextField'
+    pod 'MYTableViewIndex'
 end

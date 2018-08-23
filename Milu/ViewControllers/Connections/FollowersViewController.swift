@@ -7,17 +7,20 @@
 //
 
 import UIKit
+import MYTableViewIndex
 
-class FollowersViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class FollowersViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,TableViewIndexDelegate {
     
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var tabIndexView: SCTableIndex!
     
+    fileprivate var tableViewIndexController: TableViewIndexController!
     var indexSections = ["A","B","D","E","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","#"]
     
     var sections = ["A","B","K","T"]
     var sectionDict = [String:[String]]()
+    var example: Example!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +39,11 @@ class FollowersViewController: UIViewController,UITableViewDelegate,UITableViewD
         sectionDict["k"] = ["beau beuler","abe abbot","adam alexander","austin adams"]
         sectionDict["t"] = ["amanda angles","alexandra alman","harvey specter"]
        
+        example = CustomBackgroundExample()
+        tableViewIndexController = TableViewIndexController(scrollView: tableView)
+        tableViewIndexController.tableViewIndex.delegate = self
+        example.setupTableIndexController(tableViewIndexController)
+        
     }
     
     
@@ -101,6 +109,20 @@ class FollowersViewController: UIViewController,UITableViewDelegate,UITableViewD
         
         return cell
     }
+    
+    // MARK: - TableViewIndex
+    
+    func tableViewIndex(_ tableViewIndex: TableViewIndex, didSelect item: UIView, at index: Int) -> Bool {
+        let originalOffset = tableView.contentOffset        
+        
+        if sections.contains((item as! UILabel).text!) {
+            let indexPath = IndexPath(row: 0 , section: sections.index(of: (item as! UILabel).text!)!)
+            tableView.scrollToRow(at: indexPath, at: .top, animated: false)
+        }
+        
+        return tableView.contentOffset != originalOffset
+    }
+    
     
 }
 

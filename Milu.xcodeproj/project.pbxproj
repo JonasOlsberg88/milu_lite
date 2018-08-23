@@ -76,6 +76,9 @@
 		8497F1D32123DD9F00C7AC7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8497F1D12123DD9F00C7AC7F /* LaunchScreen.storyboard */; };
 		8497F1DE2123DDA000C7AC7F /* MiluTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497F1DD2123DDA000C7AC7F /* MiluTests.swift */; };
 		8497F1E92123DDA000C7AC7F /* MiluUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497F1E82123DDA000C7AC7F /* MiluUITests.swift */; };
+		84CDEC59212F57E000A76B5D /* Examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDEC58212F57E000A76B5D /* Examples.swift */; };
+		84CDEC5B212F583400A76B5D /* DataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDEC5A212F583400A76B5D /* DataSources.swift */; };
+		84CDEC5D212F592500A76B5D /* IndexDataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDEC5C212F592500A76B5D /* IndexDataSources.swift */; };
 		84D2CE7D212CE20800356CB0 /* ChatContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D2CE7C212CE20800356CB0 /* ChatContainerViewController.swift */; };
 		84D9FCBD212AFF700030F8AD /* GuestListContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCBC212AFF700030F8AD /* GuestListContainerViewController.swift */; };
 		84D9FCBF212B11E80030F8AD /* GoingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCBE212B11E70030F8AD /* GoingViewController.swift */; };
@@ -283,6 +286,9 @@
 		8497F1EA2123DDA000C7AC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8497F2062127518F00C7AC7F /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
 		8497F2072127526800C7AC7F /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		84CDEC58212F57E000A76B5D /* Examples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Examples.swift; sourceTree = "<group>"; };
+		84CDEC5A212F583400A76B5D /* DataSources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSources.swift; sourceTree = "<group>"; };
+		84CDEC5C212F592500A76B5D /* IndexDataSources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexDataSources.swift; sourceTree = "<group>"; };
 		84D2CE7C212CE20800356CB0 /* ChatContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatContainerViewController.swift; sourceTree = "<group>"; };
 		84D9FCBC212AFF700030F8AD /* GuestListContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestListContainerViewController.swift; sourceTree = "<group>"; };
 		84D9FCBE212B11E70030F8AD /* GoingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoingViewController.swift; sourceTree = "<group>"; };
@@ -602,6 +608,7 @@
 		843614A0212A43D400760765 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				84CDEC57212F57D000A76B5D /* TableIndex */,
 				840B51DB212E3FA800071D43 /* SCTableIndex */,
 				840B51C0212DE37900071D43 /* JYBounceHeader.swift */,
 				84D9FD31212BB59D0030F8AD /* PaddingLabel.swift */,
@@ -748,6 +755,16 @@
 				8436145E2128647E00760765 /* SigninViewController.swift */,
 			);
 			path = Splash;
+			sourceTree = "<group>";
+		};
+		84CDEC57212F57D000A76B5D /* TableIndex */ = {
+			isa = PBXGroup;
+			children = (
+				84CDEC5A212F583400A76B5D /* DataSources.swift */,
+				84CDEC5C212F592500A76B5D /* IndexDataSources.swift */,
+				84CDEC58212F57E000A76B5D /* Examples.swift */,
+			);
+			path = TableIndex;
 			sourceTree = "<group>";
 		};
 		84D9FCBB212AFF410030F8AD /* GuestList */ = {
@@ -1155,6 +1172,7 @@
 				"${BUILT_PRODUCTS_DIR}/AvatarImageView/AvatarImageView.framework",
 				"${BUILT_PRODUCTS_DIR}/HexColors/HexColors.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MYTableViewIndex/MYTableViewIndex.framework",
 				"${BUILT_PRODUCTS_DIR}/MultilineTextField/MultilineTextField.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
@@ -1168,6 +1186,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AvatarImageView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HexColors.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MYTableViewIndex.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MultilineTextField.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
@@ -1205,6 +1224,7 @@
 				8436145D212861F100760765 /* BaseTabbarViewController.swift in Sources */,
 				84202561212C53C30050B5C8 /* CustomPicker.swift in Sources */,
 				8420256A212C7B410050B5C8 /* AddInviteViewController.swift in Sources */,
+				84CDEC5D212F592500A76B5D /* IndexDataSources.swift in Sources */,
 				840B51C8212E20DE00071D43 /* EditProfilePhotoViewController.swift in Sources */,
 				840B51EB212E485200071D43 /* ConnectionsHeader.swift in Sources */,
 				84D9FCE6212B9BE50030F8AD /* RepeatDayIntervalViewController.swift in Sources */,
@@ -1226,6 +1246,7 @@
 				840B51E3212E3FA900071D43 /* SCTableIndex.swift in Sources */,
 				840B51C4212DF75E00071D43 /* ConnectisCollectionViewCell.swift in Sources */,
 				84D9FD1B212BB1710030F8AD /* NSDate-Escort-dummy.m in Sources */,
+				84CDEC59212F57E000A76B5D /* Examples.swift in Sources */,
 				84D9FD0A212BB0E40030F8AD /* MJCalendar-dummy.m in Sources */,
 				843614792129185E00760765 /* EventLocationCell.swift in Sources */,
 				843614812129A27800760765 /* GoingPeopleCollectionViewCell.swift in Sources */,
@@ -1266,6 +1287,7 @@
 				84D9FD03212BB0E40030F8AD /* MJComponentView.swift in Sources */,
 				840B51CA212E21F900071D43 /* KACircleCropCutterView.swift in Sources */,
 				840B51D6212E334100071D43 /* GroupsViewController.swift in Sources */,
+				84CDEC5B212F583400A76B5D /* DataSources.swift in Sources */,
 				843614B0212AF6B400760765 /* AllowCell.swift in Sources */,
 				843614B2212AF85600760765 /* SavebuttonCell.swift in Sources */,
 				8436147D212999F400760765 /* HostedbyCell.swift in Sources */,

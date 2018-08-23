@@ -57,29 +57,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Milu/ViewControllers/Connections/FollowingViewController.swift"
-            timestampString = "556731297.001981"
+            filePath = "Milu/Views/TableIndex/IndexDataSources.swift"
+            timestampString = "556756186.602879"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
-            landmarkName = "scTableIndexReturnInitialText(_:index:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Milu/ViewControllers/Connections/FollowingViewController.swift"
-            timestampString = "556731297.002037"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
-            landmarkName = "scTableIndexReturnInitialText(_:index:)"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "indexItems(for:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

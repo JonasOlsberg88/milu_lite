@@ -740,7 +740,7 @@
                                     <outlet property="delegate" destination="eZM-yv-s6w" id="PRa-g9-bYQ"/>
                                 </connections>
                             </tableView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fe9-5L-bjU">
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fe9-5L-bjU">
                                 <rect key="frame" x="361" y="8" width="14" height="788"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nhA-XS-Q8o" customClass="SCTableIndex" customModule="Milu" customModuleProvider="target">
@@ -1355,7 +1355,7 @@
                                     <outlet property="delegate" destination="KTl-MF-uNJ" id="chN-IR-FqP"/>
                                 </connections>
                             </tableView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ocR-3C-4Pz">
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ocR-3C-4Pz">
                                 <rect key="frame" x="361" y="8" width="14" height="788"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rYT-Kp-kXs" customClass="SCTableIndex" customModule="Milu" customModuleProvider="target">

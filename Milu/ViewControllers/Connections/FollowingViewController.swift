@@ -7,17 +7,20 @@
 //
 
 import UIKit
+import MYTableViewIndex
 
-class FollowingViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class FollowingViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,TableViewIndexDelegate {
 
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var tabIndexView: SCTableIndex!
     
+    fileprivate var tableViewIndexController: TableViewIndexController!
     var indexSections = ["A","B","D","E","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","#"]
     
     var sections = ["A","C","H","I"]
     var sectionDict = [String:[String]]()
+    var example: Example!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +38,13 @@ class FollowingViewController: UIViewController,UITableViewDelegate,UITableViewD
         sectionDict["c"] = ["amanda angles","alexandra alman","harvey specter"]
         sectionDict["h"] = ["austin adams","abe abbot","adam alexander","beau beuler"]
         sectionDict["i"] = ["beau beuler","adam alexander","abe abbot","austin adams"]
+        
+        example = CustomBackgroundExample()
+        tableViewIndexController = TableViewIndexController(scrollView: tableView)
+        tableViewIndexController.tableViewIndex.delegate = self
+        example.setupTableIndexController(tableViewIndexController)
+        
+        
     }
     
     
@@ -99,6 +109,19 @@ class FollowingViewController: UIViewController,UITableViewDelegate,UITableViewD
         }
         
         return cell
+    }
+    
+    // MARK: - TableViewIndex
+    
+    func tableViewIndex(_ tableViewIndex: TableViewIndex, didSelect item: UIView, at index: Int) -> Bool {
+        let originalOffset = tableView.contentOffset        
+        
+             if sections.contains((item as! UILabel).text!) {
+                let indexPath = IndexPath(row: 0 , section: sections.index(of: (item as! UILabel).text!)!)
+                tableView.scrollToRow(at: indexPath, at: .top, animated: false)
+             }
+      
+        return tableView.contentOffset != originalOffset
     }
     
 }
