@@ -15,11 +15,16 @@ class EventHostViewController: BaseViewController,UITableViewDelegate,UITableVie
     
     var previousOffset:CGFloat = 0
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad()       
     }
    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         self.bgImageView.frame = CGRect(x: self.bgImageView.frame.origin.x, y: self.bgImageView.frame.origin.y, width: self.bgImageView.frame.width, height: self.tableView.contentSize.height)
     }
     

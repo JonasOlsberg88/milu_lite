@@ -30,12 +30,18 @@ class EventEditViewController: BaseViewController,UITableViewDelegate,UITableVie
     override func viewDidLoad() {
         super.viewDidLoad()
         self.initView()
+       
         
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        self.bgImageView.frame = CGRect(x: self.tableView.frame.origin.x, y: self.tableView.frame.origin.y, width: self.bgImageView.frame.width, height: self.tableView.contentSize.height)
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+         self.bgImageView.frame = CGRect(x: self.tableView.frame.origin.x, y: self.tableView.frame.origin.y, width: self.bgImageView.frame.width, height: self.tableView.contentSize.height)
     }
     
     override var preferredStatusBarStyle : UIStatusBarStyle {
