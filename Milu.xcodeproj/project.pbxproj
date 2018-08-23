@@ -79,6 +79,7 @@
 		84CDEC59212F57E000A76B5D /* Examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDEC58212F57E000A76B5D /* Examples.swift */; };
 		84CDEC5B212F583400A76B5D /* DataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDEC5A212F583400A76B5D /* DataSources.swift */; };
 		84CDEC5D212F592500A76B5D /* IndexDataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDEC5C212F592500A76B5D /* IndexDataSources.swift */; };
+		84CDEC63212F712D00A76B5D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CDEC62212F712D00A76B5D /* StoreKit.framework */; };
 		84D2CE7D212CE20800356CB0 /* ChatContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D2CE7C212CE20800356CB0 /* ChatContainerViewController.swift */; };
 		84D9FCBD212AFF700030F8AD /* GuestListContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCBC212AFF700030F8AD /* GuestListContainerViewController.swift */; };
 		84D9FCBF212B11E80030F8AD /* GoingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FCBE212B11E70030F8AD /* GoingViewController.swift */; };
@@ -289,6 +290,7 @@
 		84CDEC58212F57E000A76B5D /* Examples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Examples.swift; sourceTree = "<group>"; };
 		84CDEC5A212F583400A76B5D /* DataSources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSources.swift; sourceTree = "<group>"; };
 		84CDEC5C212F592500A76B5D /* IndexDataSources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexDataSources.swift; sourceTree = "<group>"; };
+		84CDEC62212F712D00A76B5D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		84D2CE7C212CE20800356CB0 /* ChatContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatContainerViewController.swift; sourceTree = "<group>"; };
 		84D9FCBC212AFF700030F8AD /* GuestListContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestListContainerViewController.swift; sourceTree = "<group>"; };
 		84D9FCBE212B11E70030F8AD /* GoingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoingViewController.swift; sourceTree = "<group>"; };
@@ -366,6 +368,7 @@
 				84D9FCDA212B69810030F8AD /* KUIActionSheet.framework in Frameworks */,
 				84E07C18212F0610000D6169 /* MessageKit.framework in Frameworks */,
 				9EE7C9D428224A4B315AF72E /* Pods_Milu.framework in Frameworks */,
+				84CDEC63212F712D00A76B5D /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +401,7 @@
 		2E6D512DDDA692D111D92FC2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84CDEC62212F712D00A76B5D /* StoreKit.framework */,
 				8BDA7E45B9BF4800CD271386 /* Pods_Milu.framework */,
 			);
 			name = Frameworks;
@@ -1005,6 +1009,11 @@
 				TargetAttributes = {
 					8497F1C42123DD9600C7AC7F = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 					8497F1D82123DDA000C7AC7F = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -1495,8 +1504,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 89L79W5YZ6;
+				DEVELOPMENT_TEAM = RR7X3CQ34H;
 				INFOPLIST_FILE = Milu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1504,6 +1514,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.clio.Milu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Milu-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1516,8 +1527,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 89L79W5YZ6;
+				DEVELOPMENT_TEAM = RR7X3CQ34H;
 				INFOPLIST_FILE = Milu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1525,6 +1537,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.clio.Milu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Milu-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
